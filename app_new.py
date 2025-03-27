@@ -58,9 +58,10 @@ def main():
     
     # Show GitHub search button after the first assistant response or when awaiting clarification
     if (len(st.session_state.messages) >= 2 and  # At least user message + assistant response
-        not st.session_state.search_results and  # Haven't searched yet
         st.session_state.project_summary and  # Have a project summary
-        st.session_state.evaluation_state != "completed"):  # Not completed yet
+        st.session_state.evaluation_state != "completed" and  # Not completed yet
+        not st.session_state.search_results and  # Haven't searched yet
+        not st.session_state.awaiting_clarification):  # Not currently awaiting clarification
         
         # Add a visual separator
         st.markdown("---")

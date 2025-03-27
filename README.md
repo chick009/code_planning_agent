@@ -3,6 +3,20 @@
 ## Overview
 Project Implementation Planner is an AI-powered application that helps users transform their project ideas into detailed implementation plans. It leverages natural language processing and GitHub repositories to provide tailored step-by-step guidance for implementing new software projects.
 
+## Screenshots
+
+### Stage 1: Enter Your Project Idea
+![Stage 1: Enter Your Project Idea](images/stage1_writeidea.png)
+
+### Stage 2: GitHub Repository Search
+![Stage 2: GitHub Repository Search](images/stage2_projectsearch.png)
+
+### Stage 3: Repository Analysis
+![Stage 3: Repository Analysis](images/stage3_analyzeprojects.png)
+
+### Stage 4: Final Implementation Plan
+![Stage 4: Final Implementation Plan](images/stage4_final%20plan.png)
+
 ## Features
 - **Idea Analysis**: Evaluates project clarity and provides feedback for improvement
 - **GitHub Search**: Automatically searches for relevant GitHub repositories that match your project requirements

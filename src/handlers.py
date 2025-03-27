@@ -134,6 +134,7 @@ def handle_github_search():
     """
     Search for GitHub projects based on project summary.
     """
+    # Show assistant logo during search
     with st.chat_message("assistant"):
         with st.spinner("Searching GitHub projects..."):
             # Use the original idea as the primary search query
@@ -217,38 +218,39 @@ def evaluate_and_plan_projects():
         
         # Evaluate repositories in the first step
         if st.session_state.evaluation_state == "start":
-            # Show a spinner while evaluating
-            with st.spinner("Analyzing GitHub repositories in depth..."):
-                # Process each project
-                evaluations = []
-                for project in st.session_state.search_results:
-                    # Extract content
-                    repo_data = extract_github_content(project["url"])
+            # Show assistant logo with spinner while evaluating
+            with st.chat_message("assistant"):
+                with st.spinner("Analyzing GitHub repositories in depth..."):
+                    # Process each project
+                    evaluations = []
+                    for project in st.session_state.search_results:
+                        # Extract content
+                        repo_data = extract_github_content(project["url"])
+                        
+                        # Add basic project info
+                        repo_data["title"] = project.get("title", "Unknown Title")
+                        repo_data["description"] = project.get("description", "No description available")
+                        repo_data["url"] = project.get("url", "")
+                        
+                        # Evaluate the repository
+                        evaluation = evaluate_repository(repo_data, st.session_state.project_summary)
+                        evaluations.append(evaluation)
                     
-                    # Add basic project info
-                    repo_data["title"] = project.get("title", "Unknown Title")
-                    repo_data["description"] = project.get("description", "No description available")
-                    repo_data["url"] = project.get("url", "")
+                    # Select the best project
+                    best_project = select_best_project(evaluations, st.session_state.project_summary)
                     
-                    # Evaluate the repository
-                    evaluation = evaluate_repository(repo_data, st.session_state.project_summary)
-                    evaluations.append(evaluation)
-                
-                # Select the best project
-                best_project = select_best_project(evaluations, st.session_state.project_summary)
-                
-                # Sort by score (highest first)
-                evaluations.sort(key=lambda x: x.get("suitability_score", 0), reverse=True)
-                
-                # Mark the best project and add reasons
-                for eval in evaluations:
-                    if eval.get("project", {}).get("url") == best_project.get("url"):
-                        eval["is_best_match"] = True
-                        eval["best_match_reason"] = best_project.get("reason", "")
-                        # Add a clear indicator in the project title
-                        eval["project"]["title"] = f"✅ BEST MATCH: {eval['project']['title']}"
-                    else:
-                        eval["is_best_match"] = False
+                    # Sort by score (highest first)
+                    evaluations.sort(key=lambda x: x.get("suitability_score", 0), reverse=True)
+                    
+                    # Mark the best project and add reasons
+                    for eval in evaluations:
+                        if eval.get("project", {}).get("url") == best_project.get("url"):
+                            eval["is_best_match"] = True
+                            eval["best_match_reason"] = best_project.get("reason", "")
+                            # Add a clear indicator in the project title
+                            eval["project"]["title"] = f"✅ BEST MATCH: {eval['project']['title']}"
+                        else:
+                            eval["is_best_match"] = False
             
             # Store evaluations in session state
             st.session_state.evaluations = evaluations

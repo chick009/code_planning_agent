@@ -1,0 +1,3211 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://localhost:8501/
+Subject: Mini-Project Agent
+Date: Thu, 27 Mar 2025 22:50:19 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--88lptm9fPiabJcEgNkAVXWjUy0KxEp23G9PT80vbEL----"
+
+
+------MultipartBoundary--88lptm9fPiabJcEgNkAVXWjUy0KxEp23G9PT80vbEL----
+Content-Type: text/html
+Content-ID: <frame-EB19CF6F263815B2F853BF2D06548FBC@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://localhost:8501/
+
+<!--
+ Copyright (c) Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2025)
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+--><!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type"=
+ content=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"te=
+xt/css" href=3D"cid:css-dbd911f4-e7f0-41f9-8211-c4660a612866@mhtml.blink" /=
+><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-7d24ba78-5398-4=
+1c5-aaef-193956529801@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-b0557619-020c-4b97-bce4-4636b08dbf31@mhtml.blink" />
+   =20
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1, shrink-to-fit=3Dno">
+    <link rel=3D"shortcut icon" href=3D"https://cdn.jsdelivr.net/gh/twitter=
+/twemoji@14.0.2/assets/72x72/1f680.png">
+    <link rel=3D"preload" href=3D"http://localhost:8501/static/media/Source=
+SansPro-Regular.DZLUzqI4.woff2" as=3D"font" type=3D"font/woff2" crossorigin=
+=3D"">
+    <link rel=3D"preload" href=3D"http://localhost:8501/static/media/Source=
+SansPro-SemiBold.sKQIyTMz.woff2" as=3D"font" type=3D"font/woff2" crossorigi=
+n=3D"">
+    <link rel=3D"preload" href=3D"http://localhost:8501/static/media/Source=
+SansPro-Bold.-6c9oR8J.woff2" as=3D"font" type=3D"font/woff2" crossorigin=3D=
+"">
+
+    <title>Mini-Project Agent</title>
+
+    <!-- initialize window.prerenderReady to false and then set to true in =
+React app when app is ready for indexing -->
+   =20
+   =20
+    <link rel=3D"stylesheet" crossorigin=3D"" href=3D"http://localhost:8501=
+/static/css/index.DpJG_94W.css">
+  <link rel=3D"modulepreload" as=3D"script" crossorigin=3D"" href=3D"http:/=
+/localhost:8501/static/js/index.CexSYCqx.js"><link rel=3D"modulepreload" as=
+=3D"script" crossorigin=3D"" href=3D"http://localhost:8501/static/js/FileHe=
+lper.DA80DqID.js"><link rel=3D"modulepreload" as=3D"script" crossorigin=3D"=
+" href=3D"http://localhost:8501/static/js/InputInstructions.BsK7vJnF.js"><l=
+ink rel=3D"modulepreload" as=3D"script" crossorigin=3D"" href=3D"http://loc=
+alhost:8501/static/js/inputUtils.CQWz5UKz.js"><link rel=3D"modulepreload" a=
+s=3D"script" crossorigin=3D"" href=3D"http://localhost:8501/static/js/index=
+.DW_MHI2K.js"><link rel=3D"modulepreload" as=3D"script" crossorigin=3D"" hr=
+ef=3D"http://localhost:8501/static/js/UploadFileInfo.C-jY39rj.js"><link rel=
+=3D"modulepreload" as=3D"script" crossorigin=3D"" href=3D"http://localhost:=
+8501/static/js/textarea.BUcFKlA9.js"><link rel=3D"modulepreload" as=3D"scri=
+pt" crossorigin=3D"" href=3D"http://localhost:8501/static/js/base-input.Obq=
+7JAg5.js"></head>
+  <body>
+   =20
+    <div id=3D"root"><div class=3D""><div class=3D"withScreencast" data-tes=
+tid=3D"stScreencast"><div class=3D"stApp stAppEmbeddingId-stsdutcrzu6s stre=
+amlit-wide st-emotion-cache-1r4qj8v ee4bbma0" data-testid=3D"stApp" data-te=
+st-script-state=3D"notRunning" data-test-connection-state=3D"CONNECTED"><he=
+ader tabindex=3D"-1" class=3D"stAppHeader st-emotion-cache-12fmjuu e4hpqof0=
+" data-testid=3D"stHeader"><div class=3D"stDecoration st-emotion-cache-1dp5=
+vir e4hpqof1" data-testid=3D"stDecoration" id=3D"stDecoration"></div><div c=
+lass=3D"stAppToolbar st-emotion-cache-15ecox0 e4hpqof2" data-testid=3D"stTo=
+olbar"><div class=3D"stToolbarActions st-emotion-cache-1p1m4ay e1i26tt72" d=
+ata-testid=3D"stToolbarActions"></div><div class=3D"stAppDeployButton" data=
+-testid=3D"stAppDeployButton"><button kind=3D"header" data-testid=3D"stBase=
+Button-header" aria-label=3D"" class=3D"st-emotion-cache-yjrfjy em9zgd017">=
+<div class=3D"st-emotion-cache-1wbqy5l e17qgqm80"><span>Deploy</span></div>=
+</button></div><span id=3D"MainMenu" class=3D"stMainMenu st-emotion-cache-c=
+zk5ss ev04twb8" data-testid=3D"stMainMenu" aria-haspopup=3D"true" aria-expa=
+nded=3D"false"><button kind=3D"headerNoPadding" data-testid=3D"stBaseButton=
+-headerNoPadding" aria-label=3D"" class=3D"st-emotion-cache-l1ktzw em9zgd01=
+8"><svg viewBox=3D"0 0 24 24" aria-hidden=3D"true" focusable=3D"false" fill=
+=3D"currentColor" xmlns=3D"http://www.w3.org/2000/svg" class=3D"e144pc0f1 s=
+t-emotion-cache-1pbsqtx ex0cdmw0"><path fill=3D"none" d=3D"M0 0h24v24H0V0z"=
+></path><path d=3D"M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1=
+.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9=
+ 2-2-.9-2-2-2z"></path></svg></button></span></div></header><div class=3D"s=
+tAppViewContainer appview-container st-emotion-cache-1yiq2ps eht7o1d0" data=
+-testid=3D"stAppViewContainer" data-layout=3D"wide"><section tabindex=3D"0"=
+ class=3D"stMain st-emotion-cache-bm2z3a eht7o1d1" data-testid=3D"stMain"><=
+div class=3D"stMainBlockContainer block-container st-emotion-cache-t1wise e=
+ht7o1d4" data-testid=3D"stMainBlockContainer"><div data-testid=3D"stVertica=
+lBlockBorderWrapper" data-test-scroll-behavior=3D"normal" class=3D"st-emoti=
+on-cache-0 eu6p4el5"><div class=3D"st-emotion-cache-b95f0i eu6p4el4"><div c=
+lass=3D"stVerticalBlock st-emotion-cache-1850jke eu6p4el3" data-testid=3D"s=
+tVerticalBlock" width=3D"2138.02490234375"><div class=3D"stElementContainer=
+ element-container st-emotion-cache-kj6hex eu6p4el1" data-testid=3D"stEleme=
+ntContainer" data-stale=3D"false" width=3D"auto"><div class=3D"stHeading" d=
+ata-testid=3D"stHeading"><div data-testid=3D"stMarkdownContainer" class=3D"=
+st-emotion-cache-1104ytp e1icttdg0"><div data-testid=3D"stHeadingWithAction=
+Elements" class=3D"st-emotion-cache-1p9ibxm e1icttdg2"><h1 id=3D"7756b2d0">=
+=F0=9F=9A=80 Project Implementation Planner<span data-testid=3D"stHeaderAct=
+ionElements" class=3D"st-emotion-cache-gi0tri e1icttdg3"><a href=3D"http://=
+localhost:8501/#7756b2d0" class=3D"st-emotion-cache-yinll1 e1icttdg1"><svg =
+xmlns=3D"http://www.w3.org/2000/svg" width=3D"16" height=3D"16" viewBox=3D"=
+0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-=
+linecap=3D"round" stroke-linejoin=3D"round"><path d=3D"M15 7h3a5 5 0 0 1 5 =
+5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1=3D=
+"8" y1=3D"12" x2=3D"16" y2=3D"12"></line></svg></a></span></h1></div></div>=
+</div></div><div class=3D"stElementContainer element-container st-emotion-c=
+ache-kj6hex eu6p4el1" data-testid=3D"stElementContainer" data-stale=3D"fals=
+e" width=3D"auto"><div class=3D"stMarkdown" data-testid=3D"stMarkdown"><div=
+ data-testid=3D"stMarkdownContainer" class=3D"st-emotion-cache-1104ytp e1ic=
+ttdg0"><p>Transform your project idea into a step-by-step implementation pl=
+an using AI and GitHub</p></div></div></div><div class=3D"stChatMessage st-=
+emotion-cache-1c7y2kd ea2tk8x0" data-testid=3D"stChatMessage"><div data-tes=
+tid=3D"stChatMessageAvatarUser" class=3D"st-emotion-cache-1ghhuty ea2tk8x3"=
+><svg viewBox=3D"0 0 24 24" aria-hidden=3D"true" focusable=3D"false" fill=
+=3D"currentColor" xmlns=3D"http://www.w3.org/2000/svg" class=3D"e144pc0f1 s=
+t-emotion-cache-1pbsqtx ex0cdmw0"><path fill=3D"none" d=3D"M0 0h24v24H0V0z"=
+></path><path d=3D"M10.25 13a1.25 1.25 0 11-2.5 0 1.25 1.25 0 012.5 0zM15 1=
+1.75a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5zm7 .25c0 5.52-4.48 10-10 10S2 =
+17.52 2 12 6.48 2 12 2s10 4.48 10 10zM10.66 4.12C12.06 6.44 14.6 8 17.5 8c.=
+46 0 .91-.05 1.34-.12C17.44 5.56 14.9 4 12 4c-.46 0-.91.05-1.34.12zM4.42 9.=
+47a8.046 8.046 0 003.66-4.44 8.046 8.046 0 00-3.66 4.44zM20 12c0-.78-.12-1.=
+53-.33-2.24-.7.15-1.42.24-2.17.24a10 10 0 01-7.76-3.69A10.016 10.016 0 014 =
+11.86c.01.04 0 .09 0 .14 0 4.41 3.59 8 8 8s8-3.59 8-8z"></path></svg></div>=
+<div data-testid=3D"stChatMessageContent" aria-label=3D"Chat message from u=
+ser" class=3D"st-emotion-cache-1flajlm ea2tk8x1"><div data-testid=3D"stVert=
+icalBlockBorderWrapper" data-test-scroll-behavior=3D"normal" class=3D"st-em=
+otion-cache-0 eu6p4el5"><div class=3D"st-emotion-cache-b95f0i eu6p4el4"><di=
+v class=3D"stVerticalBlock st-emotion-cache-4keyno eu6p4el3" data-testid=3D=
+"stVerticalBlock" width=3D"2066.062255859375"><div class=3D"stElementContai=
+ner element-container st-emotion-cache-kj6hex eu6p4el1" data-testid=3D"stEl=
+ementContainer" data-stale=3D"false" width=3D"auto"><div class=3D"stMarkdow=
+n" data-testid=3D"stMarkdown"><div data-testid=3D"stMarkdownContainer" clas=
+s=3D"st-emotion-cache-1104ytp e1icttdg0"><p>I would like build a data scien=
+ce agent with reference to github projects, I would like to feed in a file =
+in excel or csv format, the model can analyze the data by providing multipl=
+e visualization. Be reminded that the data could be large so you need to on=
+ly see its format and execute asynchronically.</p></div></div></div></div><=
+/div></div></div></div><div class=3D"stChatMessage st-emotion-cache-4oy321 =
+ea2tk8x0" data-testid=3D"stChatMessage"><div data-testid=3D"stChatMessageAv=
+atarAssistant" class=3D"st-emotion-cache-bho8sy ea2tk8x3"><svg viewBox=3D"0=
+ 0 24 24" aria-hidden=3D"true" focusable=3D"false" fill=3D"currentColor" xm=
+lns=3D"http://www.w3.org/2000/svg" class=3D"e144pc0f1 st-emotion-cache-1pbs=
+qtx ex0cdmw0"><rect width=3D"24" height=3D"24" fill=3D"none"></rect><path d=
+=3D"M20 9V7c0-1.1-.9-2-2-2h-3c0-1.66-1.34-3-3-3S9 3.34 9 5H6c-1.1 0-2 .9-2 =
+2v2c-1.66 0-3 1.34-3 3s1.34 3 3 3v4c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-4c1.66=
+ 0 3-1.34 3-3s-1.34-3-3-3zm-2 10H6V7h12v12zm-9-6c-.83 0-1.5-.67-1.5-1.5S8.1=
+7 10 9 10s1.5.67 1.5 1.5S9.83 13 9 13zm7.5-1.5c0 .83-.67 1.5-1.5 1.5s-1.5-.=
+67-1.5-1.5.67-1.5 1.5-1.5 1.5.67 1.5 1.5zM8 15h8v2H8v-2z"></path></svg></di=
+v><div data-testid=3D"stChatMessageContent" aria-label=3D"Chat message from=
+ assistant" class=3D"st-emotion-cache-1flajlm ea2tk8x1"><div data-testid=3D=
+"stVerticalBlockBorderWrapper" data-test-scroll-behavior=3D"normal" class=
+=3D"st-emotion-cache-0 eu6p4el5"><div class=3D"st-emotion-cache-b95f0i eu6p=
+4el4"><div class=3D"stVerticalBlock st-emotion-cache-13vpwhh eu6p4el3" data=
+-testid=3D"stVerticalBlock" width=3D"2082.05615234375"><div class=3D"stElem=
+entContainer element-container st-emotion-cache-kj6hex eu6p4el1" data-testi=
+d=3D"stElementContainer" data-stale=3D"false" width=3D"auto"><div class=3D"=
+stMarkdown" data-testid=3D"stMarkdown"><div data-testid=3D"stMarkdownContai=
+ner" class=3D"st-emotion-cache-1104ytp e1icttdg0"><p>I've evaluated your pr=
+oject idea (clarity rating: 6/10).</p>
+<p>Here's what I understand so far:
+To create a data science agent that analyzes data from Excel or CSV files b=
+y generating multiple visualizations, handling large datasets efficiently t=
+hrough asynchronous processing.</p>
+<p>The project idea outlines a purpose and some features but lacks specific=
+ity in several areas. What is the primary goal of the data science agent be=
+yond analyzing data? Is it for educational purposes, business analytics, or=
+ something else? The platform isn't specified - will this be a web applicat=
+ion, a desktop tool, or something else? The technology stack is also not me=
+ntioned - are there any preferred programming languages or frameworks? The =
+features are somewhat described, but more detail on the types of visualizat=
+ions and how asynchronicity will be handled would improve clarity.</p>
+<p>Your idea is missing: specific purpose, target platform, specific techno=
+logies, detailed features, handling of large data asynchronically.</p>
+<p>To improve clarity, consider specifying the primary goal of the data sci=
+ence agent, the target platform (web, mobile, desktop), and the technology =
+stack (e.g., Python with Pandas for data analysis, D3.js for visualizations=
+). Detail the types of visualizations the model will provide and explain ho=
+w it will handle large data files asynchronically. Mention any specific Git=
+Hub projects that will be referenced or used as inspiration.</p>
+<p>Please provide more details, or click the 'Search GitHub Projects Now' b=
+utton below to continue.</p></div></div></div></div></div></div></div></div=
+><div class=3D"stChatMessage st-emotion-cache-4oy321 ea2tk8x0" data-testid=
+=3D"stChatMessage"><div data-testid=3D"stChatMessageAvatarAssistant" class=
+=3D"st-emotion-cache-bho8sy ea2tk8x3"><svg viewBox=3D"0 0 24 24" aria-hidde=
+n=3D"true" focusable=3D"false" fill=3D"currentColor" xmlns=3D"http://www.w3=
+.org/2000/svg" class=3D"e144pc0f1 st-emotion-cache-1pbsqtx ex0cdmw0"><rect =
+width=3D"24" height=3D"24" fill=3D"none"></rect><path d=3D"M20 9V7c0-1.1-.9=
+-2-2-2h-3c0-1.66-1.34-3-3-3S9 3.34 9 5H6c-1.1 0-2 .9-2 2v2c-1.66 0-3 1.34-3=
+ 3s1.34 3 3 3v4c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-4c1.66 0 3-1.34 3-3s-1.34-=
+3-3-3zm-2 10H6V7h12v12zm-9-6c-.83 0-1.5-.67-1.5-1.5S8.17 10 9 10s1.5.67 1.5=
+ 1.5S9.83 13 9 13zm7.5-1.5c0 .83-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5.67-1.5 1.=
+5-1.5 1.5.67 1.5 1.5zM8 15h8v2H8v-2z"></path></svg></div><div data-testid=
+=3D"stChatMessageContent" aria-label=3D"Chat message from assistant" class=
+=3D"st-emotion-cache-1flajlm ea2tk8x1"><div data-testid=3D"stVerticalBlockB=
+orderWrapper" data-test-scroll-behavior=3D"normal" class=3D"st-emotion-cach=
+e-0 eu6p4el5"><div class=3D"st-emotion-cache-b95f0i eu6p4el4"><div class=3D=
+"stVerticalBlock st-emotion-cache-13vpwhh eu6p4el3" data-testid=3D"stVertic=
+alBlock" width=3D"2082.05615234375"><div class=3D"stElementContainer elemen=
+t-container st-emotion-cache-kj6hex eu6p4el1" data-testid=3D"stElementConta=
+iner" data-stale=3D"false" width=3D"auto"><div class=3D"stMarkdown" data-te=
+stid=3D"stMarkdown"><div data-testid=3D"stMarkdownContainer" class=3D"st-em=
+otion-cache-1104ytp e1icttdg0"><p>I found 5 relevant GitHub projects:</p>
+<p><strong>Project 1: GitHub - sid-thephysicskid/data-science-agent</strong=
+>
+URL: <a href=3D"https://github.com/sid-thephysicskid/data-science-agent" ta=
+rget=3D"_blank" rel=3D"noopener noreferrer">https://github.com/sid-thephysi=
+cskid/data-science-agent</a>
+Description: This repository is designed to explore automation of various d=
+ata science tasks. Currently, its focused on the process of hyperparameter =
+optimization using a Reasoning + Action (ReAct) LLM agent in th...</p>
+<p><strong>Project 2: GitHub - Ramnet-Lab/data-science-agent: A data scienc=
+e agent that uses ...</strong>
+URL: <a href=3D"https://github.com/Ramnet-Lab/data-science-agent" target=3D=
+"_blank" rel=3D"noopener noreferrer">https://github.com/Ramnet-Lab/data-sci=
+ence-agent</a>
+Description: Data Science Agent This project converts a Jupyter notebook-ba=
+sed data science agent into a Python application with a Streamlit interface=
+. The agent uses LangChain and OpenAI to generate and execute d...</p>
+<p><strong>Project 3: CodeCipheAI/Data-Science-Agent-Gemini - GitHub</stron=
+g>
+URL: <a href=3D"https://github.com/CodeCipheAI/Data-Science-Agent-Gemini" t=
+arget=3D"_blank" rel=3D"noopener noreferrer">https://github.com/CodeCipheAI=
+/Data-Science-Agent-Gemini</a>
+Description: =F0=9F=94=B9 Google's Data Science Agent (Gemini Utility) in G=
+oogle Colab is designed to assist humans, not replace them. =F0=9F=94=B9 It=
+ helps automate repetitive tasks like importing libraries, loading data, an=
+d generati...</p>
+<p><strong>Project 4: GitHub - Sahanduiuc/Data-Science-Agent: Official impl=
+ementation of "DS ...</strong>
+URL: <a href=3D"https://github.com/Sahanduiuc/Data-Science-Agent" target=3D=
+"_blank" rel=3D"noopener noreferrer">https://github.com/Sahanduiuc/Data-Sci=
+ence-Agent</a>
+Description: Given a data science task, both agents perform 5 random trials=
+ to build models. Then, we use the predefined evaluation metric to evaluate=
+ the built model in the testing set.</p>
+<p><strong>Project 5: GitHub - business-science/ai-data-science-team: An AI=
+-powered data ...</strong>
+URL: <a href=3D"https://github.com/business-science/ai-data-science-team" t=
+arget=3D"_blank" rel=3D"noopener noreferrer">https://github.com/business-sc=
+ience/ai-data-science-team</a>
+Description: An AI-powered data science team of agents to help you perform =
+common data science tasks 10X faster. Please =E2=AD=90 us on GitHub (it tak=
+es 2 seconds and means a lot). Beta - This Python library is under acti...<=
+/p>
+<p>Would you like me to evaluate these projects and suggest enhancements?</=
+p></div></div></div></div></div></div></div></div><div class=3D"stChatMessa=
+ge st-emotion-cache-1c7y2kd ea2tk8x0" data-testid=3D"stChatMessage"><div da=
+ta-testid=3D"stChatMessageAvatarUser" class=3D"st-emotion-cache-1ghhuty ea2=
+tk8x3"><svg viewBox=3D"0 0 24 24" aria-hidden=3D"true" focusable=3D"false" =
+fill=3D"currentColor" xmlns=3D"http://www.w3.org/2000/svg" class=3D"e144pc0=
+f1 st-emotion-cache-1pbsqtx ex0cdmw0"><path fill=3D"none" d=3D"M0 0h24v24H0=
+V0z"></path><path d=3D"M10.25 13a1.25 1.25 0 11-2.5 0 1.25 1.25 0 012.5 0zM=
+15 11.75a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5zm7 .25c0 5.52-4.48 10-10 1=
+0S2 17.52 2 12 6.48 2 12 2s10 4.48 10 10zM10.66 4.12C12.06 6.44 14.6 8 17.5=
+ 8c.46 0 .91-.05 1.34-.12C17.44 5.56 14.9 4 12 4c-.46 0-.91.05-1.34.12zM4.4=
+2 9.47a8.046 8.046 0 003.66-4.44 8.046 8.046 0 00-3.66 4.44zM20 12c0-.78-.1=
+2-1.53-.33-2.24-.7.15-1.42.24-2.17.24a10 10 0 01-7.76-3.69A10.016 10.016 0 =
+014 11.86c.01.04 0 .09 0 .14 0 4.41 3.59 8 8 8s8-3.59 8-8z"></path></svg></=
+div><div data-testid=3D"stChatMessageContent" aria-label=3D"Chat message fr=
+om user" class=3D"st-emotion-cache-1flajlm ea2tk8x1"><div data-testid=3D"st=
+VerticalBlockBorderWrapper" data-test-scroll-behavior=3D"normal" class=3D"s=
+t-emotion-cache-0 eu6p4el5"><div class=3D"st-emotion-cache-b95f0i eu6p4el4"=
+><div class=3D"stVerticalBlock st-emotion-cache-4keyno eu6p4el3" data-testi=
+d=3D"stVerticalBlock" width=3D"2066.062255859375"><div class=3D"stElementCo=
+ntainer element-container st-emotion-cache-kj6hex eu6p4el1" data-testid=3D"=
+stElementContainer" data-stale=3D"false" width=3D"auto"><div class=3D"stMar=
+kdown" data-testid=3D"stMarkdown"><div data-testid=3D"stMarkdownContainer" =
+class=3D"st-emotion-cache-1104ytp e1icttdg0"><p>Yes, lease make a major pla=
+n for it</p></div></div></div></div></div></div></div></div><div class=3D"s=
+tChatMessage st-emotion-cache-4oy321 ea2tk8x0" data-testid=3D"stChatMessage=
+"><div data-testid=3D"stChatMessageAvatarAssistant" class=3D"st-emotion-cac=
+he-bho8sy ea2tk8x3"><svg viewBox=3D"0 0 24 24" aria-hidden=3D"true" focusab=
+le=3D"false" fill=3D"currentColor" xmlns=3D"http://www.w3.org/2000/svg" cla=
+ss=3D"e144pc0f1 st-emotion-cache-1pbsqtx ex0cdmw0"><rect width=3D"24" heigh=
+t=3D"24" fill=3D"none"></rect><path d=3D"M20 9V7c0-1.1-.9-2-2-2h-3c0-1.66-1=
+.34-3-3-3S9 3.34 9 5H6c-1.1 0-2 .9-2 2v2c-1.66 0-3 1.34-3 3s1.34 3 3 3v4c0 =
+1.1.9 2 2 2h12c1.1 0 2-.9 2-2v-4c1.66 0 3-1.34 3-3s-1.34-3-3-3zm-2 10H6V7h1=
+2v12zm-9-6c-.83 0-1.5-.67-1.5-1.5S8.17 10 9 10s1.5.67 1.5 1.5S9.83 13 9 13z=
+m7.5-1.5c0 .83-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5.67-1.5 1.5-1.5 1.5.67 1.5 1=
+.5zM8 15h8v2H8v-2z"></path></svg></div><div data-testid=3D"stChatMessageCon=
+tent" aria-label=3D"Chat message from assistant" class=3D"st-emotion-cache-=
+1flajlm ea2tk8x1"><div data-testid=3D"stVerticalBlockBorderWrapper" data-te=
+st-scroll-behavior=3D"normal" class=3D"st-emotion-cache-0 eu6p4el5"><div cl=
+ass=3D"st-emotion-cache-b95f0i eu6p4el4"><div class=3D"stVerticalBlock st-e=
+motion-cache-13vpwhh eu6p4el3" data-testid=3D"stVerticalBlock" width=3D"208=
+2.05615234375"><div class=3D"stElementContainer element-container st-emotio=
+n-cache-kj6hex eu6p4el1" data-testid=3D"stElementContainer" data-stale=3D"f=
+alse" width=3D"auto"><div class=3D"stMarkdown" data-testid=3D"stMarkdown"><=
+div data-testid=3D"stMarkdownContainer" class=3D"st-emotion-cache-1104ytp e=
+1icttdg0"><p>Based on my analysis of these GitHub repositories, here's what=
+ I found:</p>
+<div data-testid=3D"stHeadingWithActionElements" class=3D"st-emotion-cache-=
+1p9ibxm e1icttdg2"><h3 level=3D"3" id=3D"ed4aaec7">=F0=9F=8F=86 <strong>BES=
+T MATCH</strong> =F0=9F=8F=86 Project 1: =E2=9C=85 BEST MATCH: GitHub - bus=
+iness-science/ai-data-science-team: An AI-powered data ...<span data-testid=
+=3D"stHeaderActionElements" class=3D"st-emotion-cache-gi0tri e1icttdg3"><a =
+href=3D"http://localhost:8501/#ed4aaec7" class=3D"st-emotion-cache-yinll1 e=
+1icttdg1"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"16" height=3D"=
+16" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-widt=
+h=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round"><path d=3D"M15 7=
+h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></p=
+ath><line x1=3D"8" y1=3D"12" x2=3D"16" y2=3D"12"></line></svg></a></span></=
+h3></div>
+<p><strong>URL</strong>: <a href=3D"https://github.com/business-science/ai-=
+data-science-team" target=3D"_blank" rel=3D"noopener noreferrer">https://gi=
+thub.com/business-science/ai-data-science-team</a>
+<strong>Repository Stats</strong>: =E2=AD=90 0 stars | =F0=9F=8D=B4 0 forks
+<strong>Match Score</strong>: =F0=9F=9F=A2=F0=9F=9F=A2=F0=9F=9F=A2=E2=9A=AA=
+=E2=9A=AA (6/10)
+<strong>Matching Technologies</strong>: Python
+<strong>Matching Features</strong>: Data cleaning and preparation, Feature =
+engineering, Automated data analysis
+<strong>Modification Effort</strong>: High. The repository lacks several ke=
+y technologies and features required by the project, necessitating signific=
+ant development work to integrate FastAPI, React, D3.js/Plotly, and Celery,=
+ as well as to implement specific features like file uploads and asynchrono=
+us processing.</p>
+<p><strong>Assessment</strong>: The repository's concept of an AI-powered d=
+ata science team is promising for automating data analysis tasks, including=
+ those required for our project. However, the lack of explicit mention of k=
+ey technologies in our tech stack and its beta status are significant drawb=
+acks. The repository could serve as a partial foundation but would require =
+substantial modifications and additions to meet all project requirements.</=
+p>
+<p><strong>Why this is the best match</strong>: This project is the most su=
+itable choice because it aligns closely with the project's need for automat=
+ed data analysis and visualization generation, which are key features. It i=
+ncludes agents for data cleaning, preparation, and feature engineering, fou=
+ndational for handling Excel or CSV files. Although it lacks specific menti=
+ons of D3.js, Plotly, FastAPI, React, or Celery, its active development sta=
+tus suggests potential for customization and scalability to meet these requ=
+irements. The AI-powered data science team concept is innovative and could =
+provide a robust foundation for the project's goals.</p>
+<p><strong>Pros</strong>:</p>
+<ul>
+<li>AI-powered data science team concept aligns with the need for automated=
+ data analysis and visualization generation</li>
+<li>Includes agents for data cleaning, preparation, and feature engineering=
+ which are foundational for handling Excel or CSV files</li>
+<li>Under active development, indicating potential for customization and sc=
+alability</li>
+</ul>
+<p><strong>Cons</strong>:</p>
+<ul>
+<li>No clear mention of specific technologies like D3.js, Plotly, FastAPI, =
+React, or Celery in the provided information</li>
+<li>Beta status with potential breaking changes could introduce instability=
+ in the project</li>
+</ul>
+<hr>
+<div data-testid=3D"stHeadingWithActionElements" class=3D"st-emotion-cache-=
+1p9ibxm e1icttdg2"><h3 level=3D"3" id=3D"project-2-github-ramnet-lab-data-s=
+cience-agent-a-data-science-agent-that-uses">Project 2: GitHub - Ramnet-Lab=
+/data-science-agent: A data science agent that uses ...<span data-testid=3D=
+"stHeaderActionElements" class=3D"st-emotion-cache-gi0tri e1icttdg3"><a hre=
+f=3D"http://localhost:8501/#project-2-github-ramnet-lab-data-science-agent-=
+a-data-science-agent-that-uses" class=3D"st-emotion-cache-yinll1 e1icttdg1"=
+><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"16" height=3D"16" viewB=
+ox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" s=
+troke-linecap=3D"round" stroke-linejoin=3D"round"><path d=3D"M15 7h3a5 5 0 =
+0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line=
+ x1=3D"8" y1=3D"12" x2=3D"16" y2=3D"12"></line></svg></a></span></h3></div>
+<p><strong>URL</strong>: <a href=3D"https://github.com/Ramnet-Lab/data-scie=
+nce-agent" target=3D"_blank" rel=3D"noopener noreferrer">https://github.com=
+/Ramnet-Lab/data-science-agent</a>
+<strong>Repository Stats</strong>: =E2=AD=90 0 stars | =F0=9F=8D=B4 0 forks
+<strong>Match Score</strong>: =F0=9F=9F=A2=F0=9F=9F=A2=E2=9A=AA=E2=9A=AA=E2=
+=9A=AA (5/10)
+<strong>Matching Technologies</strong>: Python, Streamlit
+<strong>Matching Features</strong>: Support for Excel or CSV file uploads (=
+implied by data analysis capabilities), Data analysis and visualization gen=
+eration
+<strong>Modification Effort</strong>: High. The repository would need exten=
+sive modifications to incorporate FastAPI, React, D3.js/Plotly for visualiz=
+ations, and Celery for asynchronous processing, along with adjustments to f=
+ully support large dataset handling and format detection.</p>
+<p><strong>Assessment</strong>: The repository provides a basic foundation =
+for a data science agent with Python and Streamlit, but it significantly la=
+cks in several key areas required by the project, such as the specified tec=
+h stack and asynchronous processing capabilities. It could serve as a parti=
+al starting point but would require substantial modifications to meet all p=
+roject requirements.</p>
+<p><strong>Pros</strong>:</p>
+<ul>
+<li>Utilizes Python for data manipulation, aligning with the project's tech=
+ stack requirements.</li>
+<li>Includes a Streamlit interface, which indicates a foundation for web-ba=
+sed interaction, though not directly matching the React frontend requiremen=
+t.</li>
+<li>Demonstrates capability in generating and executing data analysis code,=
+ relevant to handling Excel or CSV files and performing data analysis.</li>
+</ul>
+<p><strong>Cons</strong>:</p>
+<ul>
+<li>Lacks direct support for FastAPI, React, D3.js, or Plotly, which are ke=
+y components of the project's tech stack.</li>
+<li>No mention of asynchronous processing capabilities or Celery, which are=
+ crucial for handling large datasets efficiently.</li>
+</ul>
+<hr>
+<div data-testid=3D"stHeadingWithActionElements" class=3D"st-emotion-cache-=
+1p9ibxm e1icttdg2"><h3 level=3D"3" id=3D"project-3-codecipheai-data-science=
+-agent-gemini-github">Project 3: CodeCipheAI/Data-Science-Agent-Gemini - Gi=
+tHub<span data-testid=3D"stHeaderActionElements" class=3D"st-emotion-cache-=
+gi0tri e1icttdg3"><a href=3D"http://localhost:8501/#project-3-codecipheai-d=
+ata-science-agent-gemini-github" class=3D"st-emotion-cache-yinll1 e1icttdg1=
+"><svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"16" height=3D"16" view=
+Box=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" =
+stroke-linecap=3D"round" stroke-linejoin=3D"round"><path d=3D"M15 7h3a5 5 0=
+ 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><lin=
+e x1=3D"8" y1=3D"12" x2=3D"16" y2=3D"12"></line></svg></a></span></h3></div=
+>
+<p><strong>URL</strong>: <a href=3D"https://github.com/CodeCipheAI/Data-Sci=
+ence-Agent-Gemini" target=3D"_blank" rel=3D"noopener noreferrer">https://gi=
+thub.com/CodeCipheAI/Data-Science-Agent-Gemini</a>
+<strong>Repository Stats</strong>: =E2=AD=90 0 stars | =F0=9F=8D=B4 0 forks
+<strong>Match Score</strong>: =F0=9F=9F=A2=F0=9F=9F=A2=E2=9A=AA=E2=9A=AA=E2=
+=9A=AA (5/10)
+<strong>Matching Technologies</strong>: Python, Pandas, NumPy
+<strong>Matching Features</strong>: Support for CSV file uploads, Multiple =
+visualization options
+<strong>Modification Effort</strong>: High effort required to adapt for a w=
+eb-based platform, including integration with FastAPI, React, and Celery, a=
+nd ensuring it can handle Excel files in addition to CSV.</p>
+<p><strong>Assessment</strong>: The repository offers some alignment with o=
+ur project requirements, particularly in automating data science tasks and =
+generating visualizations. However, its focus on Google Colab and lack of d=
+ocumentation significantly limit its suitability for a web-based platform w=
+ith specific tech stack requirements. Additional development would be neede=
+d to adapt it for our needs.</p>
+<p><strong>Pros</strong>:</p>
+<ul>
+<li>Automates repetitive tasks like importing libraries and loading data, w=
+hich aligns with our need for efficiency in handling large datasets.</li>
+<li>Includes data visualization and insights generation, matching our requi=
+rement for multiple visualization options.</li>
+<li>Designed to enhance productivity by streamlining workflows, which is be=
+neficial for our project's asynchronous processing needs.</li>
+</ul>
+<p><strong>Cons</strong>:</p>
+<ul>
+<li>Lacks a detailed README or documentation, making it difficult to assess=
+ the full capabilities and setup requirements.</li>
+<li>Primarily focused on Google Colab, which may not directly translate to =
+a web-based platform using FastAPI and React as required.</li>
+</ul>
+<hr>
+<div data-testid=3D"stHeadingWithActionElements" class=3D"st-emotion-cache-=
+1p9ibxm e1icttdg2"><h3 level=3D"3" id=3D"project-4-github-sahanduiuc-data-s=
+cience-agent-official-implementation-of-ds">Project 4: GitHub - Sahanduiuc/=
+Data-Science-Agent: Official implementation of "DS ...<span data-testid=3D"=
+stHeaderActionElements" class=3D"st-emotion-cache-gi0tri e1icttdg3"><a href=
+=3D"http://localhost:8501/#project-4-github-sahanduiuc-data-science-agent-o=
+fficial-implementation-of-ds" class=3D"st-emotion-cache-yinll1 e1icttdg1"><=
+svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"16" height=3D"16" viewBox=
+=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" str=
+oke-linecap=3D"round" stroke-linejoin=3D"round"><path d=3D"M15 7h3a5 5 0 0 =
+1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x=
+1=3D"8" y1=3D"12" x2=3D"16" y2=3D"12"></line></svg></a></span></h3></div>
+<p><strong>URL</strong>: <a href=3D"https://github.com/Sahanduiuc/Data-Scie=
+nce-Agent" target=3D"_blank" rel=3D"noopener noreferrer">https://github.com=
+/Sahanduiuc/Data-Science-Agent</a>
+<strong>Repository Stats</strong>: =E2=AD=90 0 stars | =F0=9F=8D=B4 0 forks
+<strong>Match Score</strong>: =F0=9F=9F=A2=F0=9F=9F=A2=E2=9A=AA=E2=9A=AA=E2=
+=9A=AA (4/10)
+<strong>Modification Effort</strong>: High. The repository would require si=
+gnificant modifications to align with the project's requirements, including=
+ adding support for Excel/CSV file uploads, implementing asynchronous proce=
+ssing, and integrating visualization libraries. The lack of documentation a=
+lso complicates the adaptation process.</p>
+<p><strong>Assessment</strong>: The repository is an official implementatio=
+n of a research paper on automated data science tasks, which suggests a rob=
+ust approach. However, it lacks detailed documentation and its focus on mod=
+el building rather than data visualization and handling large datasets does=
+ not fully align with the project's requirements. The absence of clear supp=
+ort for key features like Excel/CSV file uploads and asynchronous processin=
+g further reduces its suitability.</p>
+<p><strong>Pros</strong>:</p>
+<ul>
+<li>Official implementation of a research paper, suggesting a robust and th=
+eoretically sound approach</li>
+<li>Focuses on automated data science tasks, aligning with the project's go=
+al of data analysis</li>
+<li>Includes a benchmark and dataset for testing, which could be useful for=
+ validation</li>
+</ul>
+<p><strong>Cons</strong>:</p>
+<ul>
+<li>Lacks detailed documentation (no README detected), making it difficult =
+to assess the setup and usage</li>
+<li>The repository's focus on model building rather than data visualization=
+ and handling large datasets does not fully align with the project requirem=
+ents</li>
+<li>No clear indication of support for Excel or CSV file uploads, asynchron=
+ous processing, or visualization options</li>
+</ul>
+<hr>
+<div data-testid=3D"stHeadingWithActionElements" class=3D"st-emotion-cache-=
+1p9ibxm e1icttdg2"><h3 level=3D"3" id=3D"project-5-github-sid-thephysicskid=
+-data-science-agent">Project 5: GitHub - sid-thephysicskid/data-science-age=
+nt<span data-testid=3D"stHeaderActionElements" class=3D"st-emotion-cache-gi=
+0tri e1icttdg3"><a href=3D"http://localhost:8501/#project-5-github-sid-thep=
+hysicskid-data-science-agent" class=3D"st-emotion-cache-yinll1 e1icttdg1"><=
+svg xmlns=3D"http://www.w3.org/2000/svg" width=3D"16" height=3D"16" viewBox=
+=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" str=
+oke-linecap=3D"round" stroke-linejoin=3D"round"><path d=3D"M15 7h3a5 5 0 0 =
+1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x=
+1=3D"8" y1=3D"12" x2=3D"16" y2=3D"12"></line></svg></a></span></h3></div>
+<p><strong>URL</strong>: <a href=3D"https://github.com/sid-thephysicskid/da=
+ta-science-agent" target=3D"_blank" rel=3D"noopener noreferrer">https://git=
+hub.com/sid-thephysicskid/data-science-agent</a>
+<strong>Repository Stats</strong>: =E2=AD=90 0 stars | =F0=9F=8D=B4 0 forks
+<strong>Match Score</strong>: =F0=9F=9F=A2=E2=9A=AA=E2=9A=AA=E2=9A=AA=E2=9A=
+=AA (3/10)
+<strong>Matching Technologies</strong>: Python
+<strong>Modification Effort</strong>: High. The repository would require si=
+gnificant changes to align with the project's requirements, including addin=
+g support for file uploads, data visualization, and asynchronous processing=
+. The current focus on hyperparameter optimization is not relevant and woul=
+d need to be replaced or heavily modified.</p>
+<p><strong>Assessment</strong>: The repository has some foundational elemen=
+ts that could be useful, such as its use of Python and structured project s=
+etup. However, it significantly diverges from the project's requirements by=
+ focusing on hyperparameter optimization rather than data visualization and=
+ handling. This makes it a poor match for the project's needs without subst=
+antial modifications.</p>
+<p><strong>Pros</strong>:</p>
+<ul>
+<li>Focuses on automation of data science tasks, which aligns with the proj=
+ect's goal of creating a data science agent.</li>
+<li>Uses Python, which is part of the required tech stack for data manipula=
+tion.</li>
+<li>Includes a setup for environment and dependency management with Poetry,=
+ indicating a structured approach to project setup.</li>
+</ul>
+<p><strong>Cons</strong>:</p>
+<ul>
+<li>The repository is currently focused on hyperparameter optimization for =
+machine learning models, which is not directly relevant to the project's re=
+quirements of data visualization and handling.</li>
+<li>Lacks support for Excel or CSV file uploads, asynchronous data processi=
+ng, and visualization options, which are key features of the project.</li>
+</ul>
+<hr>
+<p>I'll now create a detailed implementation plan based on this project.</p=
+></div></div></div></div></div></div></div></div><div class=3D"stElementCon=
+tainer element-container st-emotion-cache-s6b9bo eu6p4el1" data-testid=3D"s=
+tElementContainer" data-stale=3D"false" width=3D"auto"><div class=3D"stEmpt=
+y" data-testid=3D"stEmpty"></div></div><div class=3D"stChatMessage st-emoti=
+on-cache-4oy321 ea2tk8x0" data-testid=3D"stChatMessage"><div data-testid=3D=
+"stChatMessageAvatarAssistant" class=3D"st-emotion-cache-bho8sy ea2tk8x3"><=
+svg viewBox=3D"0 0 24 24" aria-hidden=3D"true" focusable=3D"false" fill=3D"=
+currentColor" xmlns=3D"http://www.w3.org/2000/svg" class=3D"e144pc0f1 st-em=
+otion-cache-1pbsqtx ex0cdmw0"><rect width=3D"24" height=3D"24" fill=3D"none=
+"></rect><path d=3D"M20 9V7c0-1.1-.9-2-2-2h-3c0-1.66-1.34-3-3-3S9 3.34 9 5H=
+6c-1.1 0-2 .9-2 2v2c-1.66 0-3 1.34-3 3s1.34 3 3 3v4c0 1.1.9 2 2 2h12c1.1 0 =
+2-.9 2-2v-4c1.66 0 3-1.34 3-3s-1.34-3-3-3zm-2 10H6V7h12v12zm-9-6c-.83 0-1.5=
+-.67-1.5-1.5S8.17 10 9 10s1.5.67 1.5 1.5S9.83 13 9 13zm7.5-1.5c0 .83-.67 1.=
+5-1.5 1.5s-1.5-.67-1.5-1.5.67-1.5 1.5-1.5 1.5.67 1.5 1.5zM8 15h8v2H8v-2z"><=
+/path></svg></div><div data-testid=3D"stChatMessageContent" aria-label=3D"C=
+hat message from assistant" class=3D"st-emotion-cache-1flajlm ea2tk8x1"><di=
+v data-testid=3D"stVerticalBlockBorderWrapper" data-test-scroll-behavior=3D=
+"normal" class=3D"st-emotion-cache-0 eu6p4el5"><div class=3D"st-emotion-cac=
+he-b95f0i eu6p4el4"><div class=3D"stVerticalBlock st-emotion-cache-13vpwhh =
+eu6p4el3" data-testid=3D"stVerticalBlock" width=3D"2082.05615234375"><div c=
+lass=3D"stElementContainer element-container st-emotion-cache-kj6hex eu6p4e=
+l1" data-testid=3D"stElementContainer" data-stale=3D"false" width=3D"auto">=
+<div class=3D"stMarkdown" data-testid=3D"stMarkdown"><div data-testid=3D"st=
+MarkdownContainer" class=3D"st-emotion-cache-1104ytp e1icttdg0"><p>I've cre=
+ated a detailed implementation plan for your project:</p>
+<div data-testid=3D"stHeadingWithActionElements" class=3D"st-emotion-cache-=
+1p9ibxm e1icttdg2"><h2 level=3D"2" id=3D"plan-overview">Plan Overview<span =
+data-testid=3D"stHeaderActionElements" class=3D"st-emotion-cache-gi0tri e1i=
+cttdg3"><a href=3D"http://localhost:8501/#plan-overview" class=3D"st-emotio=
+n-cache-yinll1 e1icttdg1"><svg xmlns=3D"http://www.w3.org/2000/svg" width=
+=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"current=
+Color" stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round=
+"><path d=3D"M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 =
+5 0 0 1 5-5h3"></path><line x1=3D"8" y1=3D"12" x2=3D"16" y2=3D"12"></line><=
+/svg></a></span></h2></div>
+<p>Based on the <strong>=E2=9C=85 BEST MATCH: GitHub - business-science/ai-=
+data-science-team: An AI-powered data ...</strong> project, I've created a =
+plan to implement your requirements.</p>
+<div data-testid=3D"stHeadingWithActionElements" class=3D"st-emotion-cache-=
+1p9ibxm e1icttdg2"><h2 level=3D"2" id=3D"enhancement-strategy">Enhancement =
+Strategy<span data-testid=3D"stHeaderActionElements" class=3D"st-emotion-ca=
+che-gi0tri e1icttdg3"><a href=3D"http://localhost:8501/#enhancement-strateg=
+y" class=3D"st-emotion-cache-yinll1 e1icttdg1"><svg xmlns=3D"http://www.w3.=
+org/2000/svg" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"none=
+" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" strok=
+e-linejoin=3D"round"><path d=3D"M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0=
+H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1=3D"8" y1=3D"12" x2=3D"16"=
+ y2=3D"12"></line></svg></a></span></h2></div>
+<p>The enhancement plan involves transforming the existing AI-powered data =
+science team project into a web-based platform that specializes in analyzin=
+g data from Excel or CSV files. The platform will leverage Python for data =
+manipulation, D3.js or Plotly for creating interactive visualizations, Fast=
+API for backend services, React for the frontend interface, and Celery for =
+handling asynchronous data processing tasks. Key features include support f=
+or file uploads, efficient processing of large datasets, multiple visualiza=
+tion options, and automatic format detection. This enhancement aims to prov=
+ide a seamless, efficient, and user-friendly experience for data analysis a=
+nd visualization.</p>
+<div data-testid=3D"stHeadingWithActionElements" class=3D"st-emotion-cache-=
+1p9ibxm e1icttdg2"><h2 level=3D"2" id=3D"implementation-steps">Implementati=
+on Steps<span data-testid=3D"stHeaderActionElements" class=3D"st-emotion-ca=
+che-gi0tri e1icttdg3"><a href=3D"http://localhost:8501/#implementation-step=
+s" class=3D"st-emotion-cache-yinll1 e1icttdg1"><svg xmlns=3D"http://www.w3.=
+org/2000/svg" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"none=
+" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" strok=
+e-linejoin=3D"round"><path d=3D"M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0=
+H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1=3D"8" y1=3D"12" x2=3D"16"=
+ y2=3D"12"></line></svg></a></span></h2></div>
+<ol>
+<li><strong>Setup Web Application Framework</strong> - Establish the founda=
+tional structure of the web application using FastAPI for the backend and R=
+eact ...</li>
+<li><strong>Implement File Upload and Format Detection</strong> - Add funct=
+ionality to upload Excel and CSV files and automatically detect their forma=
+ts.</li>
+<li><strong>Integrate Asynchronous Data Processing</strong> - Use Celery to=
+ handle large dataset processing asynchronously to improve performance and =
+user experie...</li>
+<li><strong>Develop Visualization Options</strong> - Implement multiple vis=
+ualization options using D3.js or Plotly to represent the analyzed data.</l=
+i>
+<li><strong>Optimize Large Dataset Handling</strong> - Enhance the applicat=
+ion to efficiently handle and process large datasets without performance de=
+grada...</li>
+<li><strong>Testing and Deployment</strong> - Conduct thorough testing of a=
+ll features and deploy the application to a production environment.</li>
+</ol>
+<div data-testid=3D"stHeadingWithActionElements" class=3D"st-emotion-cache-=
+1p9ibxm e1icttdg2"><h2 level=3D"2" id=3D"implementation-files">Implementati=
+on Files<span data-testid=3D"stHeaderActionElements" class=3D"st-emotion-ca=
+che-gi0tri e1icttdg3"><a href=3D"http://localhost:8501/#implementation-file=
+s" class=3D"st-emotion-cache-yinll1 e1icttdg1"><svg xmlns=3D"http://www.w3.=
+org/2000/svg" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"none=
+" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" strok=
+e-linejoin=3D"round"><path d=3D"M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0=
+H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1=3D"8" y1=3D"12" x2=3D"16"=
+ y2=3D"12"></line></svg></a></span></h2></div>
+<p>I've created the following files to guide your implementation:</p>
+<ol>
+<li><a href=3D"http://localhost:8501/implementation_plan.txt" target=3D"_bl=
+ank" rel=3D"noopener noreferrer">Complete Implementation Plan</a> - The ful=
+l detailed implementation plan</li>
+<li><a href=3D"http://localhost:8501/implementation_steps/step_01_setup_web=
+_application_framework.txt" target=3D"_blank" rel=3D"noopener noreferrer">s=
+tep_01_setup_web_application_framework.txt</a> - 01 Setup Web Application F=
+ramework</li>
+<li><a href=3D"http://localhost:8501/implementation_steps/step_02_implement=
+_file_upload_and_format_detection.txt" target=3D"_blank" rel=3D"noopener no=
+referrer">step_02_implement_file_upload_and_format_detection.txt</a> - 02 I=
+mplement File Upload And Format Detection</li>
+<li><a href=3D"http://localhost:8501/implementation_steps/step_03_integrate=
+_asynchronous_data_processing.txt" target=3D"_blank" rel=3D"noopener norefe=
+rrer">step_03_integrate_asynchronous_data_processing.txt</a> - 03 Integrate=
+ Asynchronous Data Processing</li>
+<li><a href=3D"http://localhost:8501/implementation_steps/step_04_develop_v=
+isualization_options.txt" target=3D"_blank" rel=3D"noopener noreferrer">ste=
+p_04_develop_visualization_options.txt</a> - 04 Develop Visualization Optio=
+ns</li>
+<li><a href=3D"http://localhost:8501/implementation_steps/step_05_optimize_=
+large_dataset_handling.txt" target=3D"_blank" rel=3D"noopener noreferrer">s=
+tep_05_optimize_large_dataset_handling.txt</a> - 05 Optimize Large Dataset =
+Handling</li>
+<li><a href=3D"http://localhost:8501/implementation_steps/step_06_testing_a=
+nd_deployment.txt" target=3D"_blank" rel=3D"noopener noreferrer">step_06_te=
+sting_and_deployment.txt</a> - 06 Testing And Deployment</li>
+</ol></div></div></div></div></div></div></div></div><div class=3D"stChatMe=
+ssage st-emotion-cache-4oy321 ea2tk8x0" data-testid=3D"stChatMessage"><div =
+data-testid=3D"stChatMessageAvatarAssistant" class=3D"st-emotion-cache-bho8=
+sy ea2tk8x3"><svg viewBox=3D"0 0 24 24" aria-hidden=3D"true" focusable=3D"f=
+alse" fill=3D"currentColor" xmlns=3D"http://www.w3.org/2000/svg" class=3D"e=
+144pc0f1 st-emotion-cache-1pbsqtx ex0cdmw0"><rect width=3D"24" height=3D"24=
+" fill=3D"none"></rect><path d=3D"M20 9V7c0-1.1-.9-2-2-2h-3c0-1.66-1.34-3-3=
+-3S9 3.34 9 5H6c-1.1 0-2 .9-2 2v2c-1.66 0-3 1.34-3 3s1.34 3 3 3v4c0 1.1.9 2=
+ 2 2h12c1.1 0 2-.9 2-2v-4c1.66 0 3-1.34 3-3s-1.34-3-3-3zm-2 10H6V7h12v12zm-=
+9-6c-.83 0-1.5-.67-1.5-1.5S8.17 10 9 10s1.5.67 1.5 1.5S9.83 13 9 13zm7.5-1.=
+5c0 .83-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5.67-1.5 1.5-1.5 1.5.67 1.5 1.5zM8 1=
+5h8v2H8v-2z"></path></svg></div><div data-testid=3D"stChatMessageContent" a=
+ria-label=3D"Chat message from assistant" class=3D"st-emotion-cache-1flajlm=
+ ea2tk8x1"><div data-testid=3D"stVerticalBlockBorderWrapper" data-test-scro=
+ll-behavior=3D"normal" class=3D"st-emotion-cache-0 eu6p4el5"><div class=3D"=
+st-emotion-cache-b95f0i eu6p4el4"><div class=3D"stVerticalBlock st-emotion-=
+cache-13vpwhh eu6p4el3" data-testid=3D"stVerticalBlock" width=3D"2082.05615=
+234375"><div class=3D"stElementContainer element-container st-emotion-cache=
+-kj6hex eu6p4el1" data-testid=3D"stElementContainer" data-stale=3D"false" w=
+idth=3D"auto"><div class=3D"stMarkdown" data-testid=3D"stMarkdown"><div dat=
+a-testid=3D"stMarkdownContainer" class=3D"st-emotion-cache-1104ytp e1icttdg=
+0"><p>Would you like to start a new project? Click the 'Start New Project' =
+button in the sidebar to begin.</p></div></div></div></div></div></div></di=
+v></div></div></div></div></div><div data-testid=3D"stAppIframeResizerAncho=
+r" data-iframe-height=3D"true" class=3D"st-emotion-cache-1dumvfu eht7o1d9">=
+</div></section></div></div></div><div data-testid=3D"portal" id=3D"portal"=
+ class=3D"st-emotion-cache-1q6lfs0 e19n7mk11"></div></div><div class=3D""><=
+/div></div>
+ =20
+
+</body></html>
+------MultipartBoundary--88lptm9fPiabJcEgNkAVXWjUy0KxEp23G9PT80vbEL----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://localhost:8501/static/css/index.DpJG_94W.css
+
+@charset "utf-8";
+
+@font-face { font-family: KaTeX_AMS; font-style: normal; font-weight: 400; =
+src: url("../media/KaTeX_AMS-Regular.BQhdFMY1.woff2") format("woff2"), url(=
+"../media/KaTeX_AMS-Regular.DMm9YOAa.woff") format("woff"), url("../media/K=
+aTeX_AMS-Regular.DRggAlZN.ttf") format("truetype"); }
+
+@font-face { font-family: KaTeX_Caligraphic; font-style: normal; font-weigh=
+t: 700; src: url("../media/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2") format("=
+woff2"), url("../media/KaTeX_Caligraphic-Bold.BEiXGLvX.woff") format("woff"=
+), url("../media/KaTeX_Caligraphic-Bold.ATXxdsX0.ttf") format("truetype"); =
+}
+
+@font-face { font-family: KaTeX_Caligraphic; font-style: normal; font-weigh=
+t: 400; src: url("../media/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2") forma=
+t("woff2"), url("../media/KaTeX_Caligraphic-Regular.CTRA-rTL.woff") format(=
+"woff"), url("../media/KaTeX_Caligraphic-Regular.wX97UBjC.ttf") format("tru=
+etype"); }
+
+@font-face { font-family: KaTeX_Fraktur; font-style: normal; font-weight: 7=
+00; src: url("../media/KaTeX_Fraktur-Bold.CL6g_b3V.woff2") format("woff2"),=
+ url("../media/KaTeX_Fraktur-Bold.BsDP51OF.woff") format("woff"), url("../m=
+edia/KaTeX_Fraktur-Bold.BdnERNNW.ttf") format("truetype"); }
+
+@font-face { font-family: KaTeX_Fraktur; font-style: normal; font-weight: 4=
+00; src: url("../media/KaTeX_Fraktur-Regular.CTYiF6lA.woff2") format("woff2=
+"), url("../media/KaTeX_Fraktur-Regular.Dxdc4cR9.woff") format("woff"), url=
+("../media/KaTeX_Fraktur-Regular.CB_wures.ttf") format("truetype"); }
+
+@font-face { font-family: KaTeX_Main; font-style: normal; font-weight: 700;=
+ src: url("../media/KaTeX_Main-Bold.Cx986IdX.woff2") format("woff2"), url("=
+../media/KaTeX_Main-Bold.Jm3AIy58.woff") format("woff"), url("../media/KaTe=
+X_Main-Bold.waoOVXN0.ttf") format("truetype"); }
+
+@font-face { font-family: KaTeX_Main; font-style: italic; font-weight: 700;=
+ src: url("../media/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2") format("woff2"),=
+ url("../media/KaTeX_Main-BoldItalic.SpSLRI95.woff") format("woff"), url(".=
+./media/KaTeX_Main-BoldItalic.DzxPMmG6.ttf") format("truetype"); }
+
+@font-face { font-family: KaTeX_Main; font-style: italic; font-weight: 400;=
+ src: url("../media/KaTeX_Main-Italic.NWA7e6Wa.woff2") format("woff2"), url=
+("../media/KaTeX_Main-Italic.BMLOBm91.woff") format("woff"), url("../media/=
+KaTeX_Main-Italic.3WenGoN9.ttf") format("truetype"); }
+
+@font-face { font-family: KaTeX_Main; font-style: normal; font-weight: 400;=
+ src: url("../media/KaTeX_Main-Regular.B22Nviop.woff2") format("woff2"), ur=
+l("../media/KaTeX_Main-Regular.Dr94JaBh.woff") format("woff"), url("../medi=
+a/KaTeX_Main-Regular.ypZvNtVU.ttf") format("truetype"); }
+
+@font-face { font-family: KaTeX_Math; font-style: italic; font-weight: 700;=
+ src: url("../media/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2") format("woff2"),=
+ url("../media/KaTeX_Math-BoldItalic.iY-2wyZ7.woff") format("woff"), url(".=
+./media/KaTeX_Math-BoldItalic.B3XSjfu4.ttf") format("truetype"); }
+
+@font-face { font-family: KaTeX_Math; font-style: italic; font-weight: 400;=
+ src: url("../media/KaTeX_Math-Italic.t53AETM-.woff2") format("woff2"), url=
+("../media/KaTeX_Math-Italic.DA0__PXp.woff") format("woff"), url("../media/=
+KaTeX_Math-Italic.flOr_0UB.ttf") format("truetype"); }
+
+@font-face { font-family: KaTeX_SansSerif; font-style: normal; font-weight:=
+ 700; src: url("../media/KaTeX_SansSerif-Bold.D1sUS0GD.woff2") format("woff=
+2"), url("../media/KaTeX_SansSerif-Bold.DbIhKOiC.woff") format("woff"), url=
+("../media/KaTeX_SansSerif-Bold.CFMepnvq.ttf") format("truetype"); }
+
+@font-face { font-family: KaTeX_SansSerif; font-style: italic; font-weight:=
+ 400; src: url("../media/KaTeX_SansSerif-Italic.C3H0VqGB.woff2") format("wo=
+ff2"), url("../media/KaTeX_SansSerif-Italic.DN2j7dab.woff") format("woff"),=
+ url("../media/KaTeX_SansSerif-Italic.YYjJ1zSn.ttf") format("truetype"); }
+
+@font-face { font-family: KaTeX_SansSerif; font-style: normal; font-weight:=
+ 400; src: url("../media/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2") format("w=
+off2"), url("../media/KaTeX_SansSerif-Regular.CS6fqUqJ.woff") format("woff"=
+), url("../media/KaTeX_SansSerif-Regular.BNo7hRIc.ttf") format("truetype");=
+ }
+
+@font-face { font-family: KaTeX_Script; font-style: normal; font-weight: 40=
+0; src: url("../media/KaTeX_Script-Regular.D3wIWfF6.woff2") format("woff2")=
+, url("../media/KaTeX_Script-Regular.D5yQViql.woff") format("woff"), url(".=
+./media/KaTeX_Script-Regular.C5JkGWo-.ttf") format("truetype"); }
+
+@font-face { font-family: KaTeX_Size1; font-style: normal; font-weight: 400=
+; src: url("../media/KaTeX_Size1-Regular.mCD8mA8B.woff2") format("woff2"), =
+url("../media/KaTeX_Size1-Regular.C195tn64.woff") format("woff"), url("../m=
+edia/KaTeX_Size1-Regular.Dbsnue_I.ttf") format("truetype"); }
+
+@font-face { font-family: KaTeX_Size2; font-style: normal; font-weight: 400=
+; src: url("../media/KaTeX_Size2-Regular.Dy4dx90m.woff2") format("woff2"), =
+url("../media/KaTeX_Size2-Regular.oD1tc_U0.woff") format("woff"), url("../m=
+edia/KaTeX_Size2-Regular.B7gKUWhC.ttf") format("truetype"); }
+
+@font-face { font-family: KaTeX_Size3; font-style: normal; font-weight: 400=
+; src: url("data:font/woff2;base64,d09GMgABAAAAAA4oAA4AAAAAHbQAAA3TAAEAAAAA=
+AAAAAAAAAAAAAAAAAAAAAAAABmAAgRQIDgmcDBEICo1oijYBNgIkA14LMgAEIAWJAAeBHAyBHBv=
+bGiMRdnO0IkRRkiYDgr9KsJ1NUAf2kILNxgUmgqIgq1P89vcbIcmsQbRps3vCcXdYOKSWEPEKgZ=
+gQkprQQsxIXUgq0DqpGKmIvrgkeVGtEQD9DzAO29fM9jYhxZEsL2FeURH2JN4MIcTdO049NCVdx=
+Q/w9NrSYFEBKTDKpLKfNkCGDc1RwjZLQcm3vqJ2UW9Xfa3tgAHz6ivp6vgC2yD4/6352ndnN0X0=
+TL7seypkjZlMsjmZnf0Mm5Q+JykRWQBKCVCVPbARPXWyQtb5VgLB6Biq7/Uixcj2WGqdI8tGSgk=
+uRG+t910GKP2D7AQH0DB9FMDW/obJZ8giFI3Wg8Cvevz0M+5m0rTh7XDBlvo9Y4vm13EXmfttwI=
+4mBo1EG15fxJhUiCLbiiyCf/ZA6MFAhg3pGIZGdGIVjtPn6UcMk9A/UUr9PhoNsCENw1APAq0gp=
+H73e+M+0ueyHbabc3vkbcdtzcf/fiy+NxQEjf9ud/ELBHAXJ0nk4z+MXH2Ev/kWyV4k7SkvpPc9=
+Qr38F6RPWnM9cN6DJ0AdD1BhtgABtmoRoFCvPsBAumNm6soZG2Gk5GyVTo2sJncSyp0jQTYoR6W=
+DvTwaaEcHsxHfvuWhHA3a6bN7twRKtcGok6NsCi7jYRrM2jExsUFMxMQYuJbMhuWNOumEJy9hi2=
+9Dmg5zMp/A5+hhPG19j1vBrq8JTLr8ki5VLPmG/PynJHVul440bxg5xuymHUFPBshC+nA9I1Fmw=
+bRBTNHAcik3Oae0cxKoI3MOriM42UrPe51nsaGxJ+WfXubAsP84aabUlQSJ1IiE0iPETLUU4CAT=
+gfXSCSpuRFRmCGbO+wSpAnzaeaCYW1VNEysRtuXCEL1kUFUbbtMv3Tilt/1c11jt3Q5bbMa84cp=
+Wipp8Elw3MZhOHsOlwwVUQM3lAR35JiFQbaYCRnMF2lxAWoOg2gyoIV4PouX8HytNIfLhqpJtXB=
+4vjiViUI8IJ7bkC4ikkQvKksnOTKICwnqWSZ9YS5f0WCxmpgjbIq7EJcM4aI2nmhLNY2JIUgOjX=
+ZFWBHb+x5oh6cwb0Tv1ackHdKi0I9OO2wE9aogIOn540CCCziyhN+IaejtgAONKznHlHyutPrHG=
+wCx9S6B8kfS4Mfi4Eyv7OU730bT1SCBjt834cXsf43zVjPUqqJjgrjeGnBxSG4aYAKFuVbeCfkD=
+IjAqMb6yLNIbCuvXhMH2/+k2vkNpkORhR59N1CkzoOENvneIosjYmuTxlhUzaGEJQ/iWqx4dmwp=
+mKjrwTiTGTCVozNAYqk/zXOndWxuWSmJkQpJw3pK5KX6QrLt5LATMqpmPAQhkhK6PUjzHUn7E0g=
+HE0kPE0iKkolgkUx9SZmVAdDgpffdyJKg3k7VmzYGCwVXGz/tXmkOIp+vcWs+EMuhhvN0h9uhfz=
+WJziBQmCREGSIFmQIkgVpAnSBRmC//6hkLZwaVhwxlrJSOdqlFtOYxlau9F2QN5Y98xmIAsiM1H=
+Vp2VFX+DHHGg6Ecjh3vmqtidX3qHI2qycTk/iwxSt5UzTmEP92ZBnEWTk4Mx8Mpl78ZDokxg/KW=
+b+Q0QkvdKVmq3TMW+RXEgrsziSAfNXFMhDc60N5N9jQzjfO0kBKpUZl0ZmwJ41j/B9Hz6wmRaJB=
+84niNmQrzp9eSlQCDDzazGDdVi3P36VZQ+Jy4f9UBNp+3zTjqI4abaFAm+GShVaXlsGdF3FYzZc=
+DI6cori4kMxUECl9IjJZpzkvitAoxKue+90pDMvcKRxLl53TmOKCmV/xRolNKSqqUxc6LStOETm=
+FOiLZZptlZepcKiAzteG8PEdpnQpbOMNcMsR4RR2Bs0cKFEvSmIjAFcnarqwUL4lDhHmnVkwu1I=
+wshbiCcgvOheZuYyOteufZZwlcTlLgnZ3o/WcYdzZHW/WGaqaVfmTZ1aWCceJjkbZqsfbkOtcFl=
+UZM/jy+hXHDbaUobWqqXaeWobbLO99yG5N3U4wxco0rQGGcOLASFMXeJoham8M+/x6O2WywK2l4=
+HGbq1CoUyC/IZikQhdq3SiuNrvAEj0AVu9x2x3lp/xWzahaxidezFVtdcb5uEnzyl0ZmYiuKI0e=
+xvCd4Xc9CV1KB0db00z92wDPde0kukbvZIWN6jUWFTmPIC/Y4UPCm8UfDTFZpZNon1qLFTkBhxz=
+B+FjQRA2Q/YRJT8pQigslMaUpFyAG8TMlXigiqmAZX4xgijKjRlGpLE0GdplRfCaJo0JQaSxNBk=
+6ZmMzcya0FmrcisDdn0Q3HI2sWSppYigmlM1XT/kLQZSNpMJG0WkjYbSZuDpM1F0uYhFc1HxU4m=
+1QJjDK6iL0S5uSj5rgXc3RejEigtcRBtqYPQsiTskmO5vosV+q4VGIKbOkDg0jtRrq+Em1YloaT=
+Far3EGr1EUC8R0kus1Uus00usL97ABr2BjXoDm/QGNhuWtMVBKOwg/i78lT7hBsAvDmwHc/ao3v=
+mUbBmhjeYySZNWvGkfZAgISDSaDo1SVpzGDsAEkF8B+gEapViUoZgUWXcRIGFZNm6gWbAKk0bp0=
+k1MHG9fLYtV4iS2SmLEQFARzRcnf9PUS0LVn05/J9MiRRBU3v2IrvW974v4N00L7ZMk0wXP1409=
+CHo/an8zTRHD3eSJ6m8D4YMkZNl3M79sqeuAsr/m3f+8/yl7A50aiAEJgeBeMWzu7ui9UfUBCe2=
+TIqZIoOd/3/udRBOQidQZUERzb2/VwZN1H/Sju82ew2H2Wfr6qvfVf3hqwDvAIpkQVFy4B9Pe9e=
+4/XvPeceu7h3dvO56iJPf0+A6cqA2ip18ER+iFgggiuOkvj24bby0N9j2UHIkgqIt+sVgfodC4Y=
+ghLSMjSZbH0VR/6dMDrYJeKHilKTemt6v6kvzvn3/RrdWtr0GoN/xL+Sex/cPYLUpepx9cz/D46=
+UPU5KXgAQa+NDps1v6J3xP1i2HtaDB0M9aX2deA7SYff//+gUCovMmIK/qfsFcOk+4Y5ZN97XlG=
+6zebqtMbKgeRFi51vnxTQYBUik2rS/Cn6PC8ADR8FGxsRPB82dzfND90gIcshOcYUkfjherBz53=
+odpm6TP8txlwOZ71xmfHHOvq053qFF/MRlS3jP0ELudrf2OeN8DHvp6ZceLe8qKYvWz/7yp0u4d=
+KPfli3CYq0O13Ih71mylJ80tOi10On8wi+F4+LWgDPeJ30msSQt9/vkmHq9/Lvo2b461mP801v3=
+W4xTcs6CbvF9UDdrSt+A8OUbpSh55qAUFXWznBBfdeJ8a4d7ugT5tvxUza3h9m4H7ptTqiG4z0g=
+5dc0X29OcGlhpGFMpQo9ytTS+NViZpNdvU4kWx+LKxNY10kQ1yqGXrhe4/1nvP7E+nd5A92TtaR=
+plbHSqoIdOqtRWti+fkB5/n1+/VvCmz12pG1kpQWsfi1ftlBobm0bpngs16CHkbIwdLnParxtTV=
+3QYRlfJ0KFskH7pdN/YDn+yRuSd7sNH3aO0DYPggk6uWuXrfOc+fa3VTxFVvKaNxHsiHmsXyCLI=
+E5yuOeN3/Jdf8HBL/5M6shjyhxHx9BjB1O0+4NLOnjLLSxwO7ukN4jMbOIcD879KLSi6Pk61Oqm=
+2377n8079PXEEQ7cy7OKEC9nbpet118fxweTafpt69x/Bt8UqGzNQt7aelpc44dn5cqhwf71+qK=
+p/Zf/+a0zcizOUWpl/iBcSXip0pplkatCchoH5c5aUM8I7/dWxAej8WicPL1URFZ9BDJelUwEwT=
+kGqUhgSlydVes95YdXvhh9Gfz/aeFWvgVb4tuLbcv4+wLdutVZv/cUonwBD/6eDlE0aSiKK/uoH=
+3+J1wDE/jMVqY2ysGufN84oIXB0sPzy8ollX/LegY74DgJXJR57sn+VGza0x3DnuIgABFM15Lma=
+jjjsNlYj+JEZGbuRYcAMOWxFkPN2w6Wd46xo4gVWQR/X4lyI/R6K/YK0110GzudPRW7Y+UOBGTf=
+NNzHeYT0fiH0taunBpq9HEW8OKSaBGj21L0MqenEmNRWBAWDWAk4CpNoEZJ2tTaPFgbQYj8HxtF=
+ilErs3BTRwT8uO1NXQaWfIotchmPkAF5mMBAliEmZiOGVgCG9LgRzpscMAOOwowlT3JhusdazXG=
+SC/hxR3UlmWVwWHpOIKheqONvjyhSiTHIkVUco5bnji8m//zL7PKaT1Vl5I6UE609f+gkr6MZKV=
+yKc7zJRmCahLsdlyA5fdQkRSan9LgnnLEyGSkaKJCJog0wAgvepWBt80+1yKln1bMVtCljfNWDu=
+eKLsWwaEbBSfSPTEmVRsUcYYMnEjcjeyCZzBXK9E9BYBXLKjOSpUDR+nEV3TFSUdQaz+ot98Qxg=
+Xwx0GQ+EEUAKB2qZPkQQ0GqFD8UPFMqyaCHM24BZmSGic9EYMagKizOw9Hz50DMrDLrqqLkTAhp=
+lMictiCAx5S3BIUQdeJeLnBy2CNtMfz6cV4u8XKoFZQesbf9YZiIERiHjaNodDW6LgcirX/mPnJ=
+IkBGDUpTBhSa0EIr38D5hCIszhCM8URGBqImoWjpvpt1ebu/v3Gl3qJfMnNM+9V+kiRFyROTPHQ=
+WOcs1dNW94/ukKMPZBvDi55i5CttdeJz84DLngLqjcdwEZ87bFFR8CIG35OAkDVN6VRDZ7aq67N=
+teYqZ2lpT8oYB2CytoBd6VuAx4WgiAsnuj3WohG+LugzXiQRDeM3XYXlULv4dp5VFYC") forma=
+t("woff2"), url("../media/KaTeX_Size3-Regular.CTq5MqoE.woff") format("woff"=
+), url("../media/KaTeX_Size3-Regular.DgpXs0kz.ttf") format("truetype"); }
+
+@font-face { font-family: KaTeX_Size4; font-style: normal; font-weight: 400=
+; src: url("../media/KaTeX_Size4-Regular.Dl5lxZxV.woff2") format("woff2"), =
+url("../media/KaTeX_Size4-Regular.BF-4gkZK.woff") format("woff"), url("../m=
+edia/KaTeX_Size4-Regular.DWFBv043.ttf") format("truetype"); }
+
+@font-face { font-family: KaTeX_Typewriter; font-style: normal; font-weight=
+: 400; src: url("../media/KaTeX_Typewriter-Regular.CO6r4hn1.woff2") format(=
+"woff2"), url("../media/KaTeX_Typewriter-Regular.C0xS9mPB.woff") format("wo=
+ff"), url("../media/KaTeX_Typewriter-Regular.D3Ib7_Hf.ttf") format("truetyp=
+e"); }
+
+.katex { font: 1.21em / 1.2 KaTeX_Main, "Times New Roman", serif; text-inde=
+nt: 0px; text-rendering: auto; }
+
+.katex * { border-color: currentcolor; }
+
+.katex .katex-version::after { content: "0.16.21"; }
+
+.katex .katex-mathml { clip: rect(1px, 1px, 1px, 1px); border: 0px; height:=
+ 1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; }
+
+.katex .katex-html > .newline { display: block; }
+
+.katex .base { position: relative; white-space: nowrap; width: min-content;=
+ }
+
+.katex .base, .katex .strut { display: inline-block; }
+
+.katex .textbf { font-weight: 700; }
+
+.katex .textit { font-style: italic; }
+
+.katex .textrm { font-family: KaTeX_Main; }
+
+.katex .textsf { font-family: KaTeX_SansSerif; }
+
+.katex .texttt { font-family: KaTeX_Typewriter; }
+
+.katex .mathnormal { font-family: KaTeX_Math; font-style: italic; }
+
+.katex .mathit { font-family: KaTeX_Main; font-style: italic; }
+
+.katex .mathrm { font-style: normal; }
+
+.katex .mathbf { font-family: KaTeX_Main; font-weight: 700; }
+
+.katex .boldsymbol { font-family: KaTeX_Math; font-style: italic; font-weig=
+ht: 700; }
+
+.katex .amsrm, .katex .mathbb, .katex .textbb { font-family: KaTeX_AMS; }
+
+.katex .mathcal { font-family: KaTeX_Caligraphic; }
+
+.katex .mathfrak, .katex .textfrak { font-family: KaTeX_Fraktur; }
+
+.katex .mathboldfrak, .katex .textboldfrak { font-family: KaTeX_Fraktur; fo=
+nt-weight: 700; }
+
+.katex .mathtt { font-family: KaTeX_Typewriter; }
+
+.katex .mathscr, .katex .textscr { font-family: KaTeX_Script; }
+
+.katex .mathsf, .katex .textsf { font-family: KaTeX_SansSerif; }
+
+.katex .mathboldsf, .katex .textboldsf { font-family: KaTeX_SansSerif; font=
+-weight: 700; }
+
+.katex .mathitsf, .katex .mathsfit, .katex .textitsf { font-family: KaTeX_S=
+ansSerif; font-style: italic; }
+
+.katex .mainrm { font-family: KaTeX_Main; font-style: normal; }
+
+.katex .vlist-t { border-collapse: collapse; display: inline-table; table-l=
+ayout: fixed; }
+
+.katex .vlist-r { display: table-row; }
+
+.katex .vlist { display: table-cell; position: relative; vertical-align: bo=
+ttom; }
+
+.katex .vlist > span { display: block; height: 0px; position: relative; }
+
+.katex .vlist > span > span { display: inline-block; }
+
+.katex .vlist > span > .pstrut { overflow: hidden; width: 0px; }
+
+.katex .vlist-t2 { margin-right: -2px; }
+
+.katex .vlist-s { display: table-cell; font-size: 1px; min-width: 2px; vert=
+ical-align: bottom; width: 2px; }
+
+.katex .vbox { align-items: baseline; display: inline-flex; flex-direction:=
+ column; }
+
+.katex .hbox { width: 100%; }
+
+.katex .hbox, .katex .thinbox { display: inline-flex; flex-direction: row; =
+}
+
+.katex .thinbox { max-width: 0px; width: 0px; }
+
+.katex .msupsub { text-align: left; }
+
+.katex .mfrac > span > span { text-align: center; }
+
+.katex .mfrac .frac-line { border-bottom-style: solid; display: inline-bloc=
+k; width: 100%; }
+
+.katex .hdashline, .katex .hline, .katex .mfrac .frac-line, .katex .overlin=
+e .overline-line, .katex .rule, .katex .underline .underline-line { min-hei=
+ght: 1px; }
+
+.katex .mspace { display: inline-block; }
+
+.katex .clap, .katex .llap, .katex .rlap { position: relative; width: 0px; =
+}
+
+.katex .clap > .inner, .katex .llap > .inner, .katex .rlap > .inner { posit=
+ion: absolute; }
+
+.katex .clap > .fix, .katex .llap > .fix, .katex .rlap > .fix { display: in=
+line-block; }
+
+.katex .llap > .inner { right: 0px; }
+
+.katex .clap > .inner, .katex .rlap > .inner { left: 0px; }
+
+.katex .clap > .inner > span { margin-left: -50%; margin-right: 50%; }
+
+.katex .rule { border: 0px solid; display: inline-block; position: relative=
+; }
+
+.katex .hline, .katex .overline .overline-line, .katex .underline .underlin=
+e-line { border-bottom-style: solid; display: inline-block; width: 100%; }
+
+.katex .hdashline { border-bottom-style: dashed; display: inline-block; wid=
+th: 100%; }
+
+.katex .sqrt > .root { margin-left: 0.277778em; margin-right: -0.555556em; =
+}
+
+.katex .fontsize-ensurer.reset-size1.size1, .katex .sizing.reset-size1.size=
+1 { font-size: 1em; }
+
+.katex .fontsize-ensurer.reset-size1.size2, .katex .sizing.reset-size1.size=
+2 { font-size: 1.2em; }
+
+.katex .fontsize-ensurer.reset-size1.size3, .katex .sizing.reset-size1.size=
+3 { font-size: 1.4em; }
+
+.katex .fontsize-ensurer.reset-size1.size4, .katex .sizing.reset-size1.size=
+4 { font-size: 1.6em; }
+
+.katex .fontsize-ensurer.reset-size1.size5, .katex .sizing.reset-size1.size=
+5 { font-size: 1.8em; }
+
+.katex .fontsize-ensurer.reset-size1.size6, .katex .sizing.reset-size1.size=
+6 { font-size: 2em; }
+
+.katex .fontsize-ensurer.reset-size1.size7, .katex .sizing.reset-size1.size=
+7 { font-size: 2.4em; }
+
+.katex .fontsize-ensurer.reset-size1.size8, .katex .sizing.reset-size1.size=
+8 { font-size: 2.88em; }
+
+.katex .fontsize-ensurer.reset-size1.size9, .katex .sizing.reset-size1.size=
+9 { font-size: 3.456em; }
+
+.katex .fontsize-ensurer.reset-size1.size10, .katex .sizing.reset-size1.siz=
+e10 { font-size: 4.148em; }
+
+.katex .fontsize-ensurer.reset-size1.size11, .katex .sizing.reset-size1.siz=
+e11 { font-size: 4.976em; }
+
+.katex .fontsize-ensurer.reset-size2.size1, .katex .sizing.reset-size2.size=
+1 { font-size: 0.833333em; }
+
+.katex .fontsize-ensurer.reset-size2.size2, .katex .sizing.reset-size2.size=
+2 { font-size: 1em; }
+
+.katex .fontsize-ensurer.reset-size2.size3, .katex .sizing.reset-size2.size=
+3 { font-size: 1.16667em; }
+
+.katex .fontsize-ensurer.reset-size2.size4, .katex .sizing.reset-size2.size=
+4 { font-size: 1.33333em; }
+
+.katex .fontsize-ensurer.reset-size2.size5, .katex .sizing.reset-size2.size=
+5 { font-size: 1.5em; }
+
+.katex .fontsize-ensurer.reset-size2.size6, .katex .sizing.reset-size2.size=
+6 { font-size: 1.66667em; }
+
+.katex .fontsize-ensurer.reset-size2.size7, .katex .sizing.reset-size2.size=
+7 { font-size: 2em; }
+
+.katex .fontsize-ensurer.reset-size2.size8, .katex .sizing.reset-size2.size=
+8 { font-size: 2.4em; }
+
+.katex .fontsize-ensurer.reset-size2.size9, .katex .sizing.reset-size2.size=
+9 { font-size: 2.88em; }
+
+.katex .fontsize-ensurer.reset-size2.size10, .katex .sizing.reset-size2.siz=
+e10 { font-size: 3.45667em; }
+
+.katex .fontsize-ensurer.reset-size2.size11, .katex .sizing.reset-size2.siz=
+e11 { font-size: 4.14667em; }
+
+.katex .fontsize-ensurer.reset-size3.size1, .katex .sizing.reset-size3.size=
+1 { font-size: 0.714286em; }
+
+.katex .fontsize-ensurer.reset-size3.size2, .katex .sizing.reset-size3.size=
+2 { font-size: 0.857143em; }
+
+.katex .fontsize-ensurer.reset-size3.size3, .katex .sizing.reset-size3.size=
+3 { font-size: 1em; }
+
+.katex .fontsize-ensurer.reset-size3.size4, .katex .sizing.reset-size3.size=
+4 { font-size: 1.14286em; }
+
+.katex .fontsize-ensurer.reset-size3.size5, .katex .sizing.reset-size3.size=
+5 { font-size: 1.28571em; }
+
+.katex .fontsize-ensurer.reset-size3.size6, .katex .sizing.reset-size3.size=
+6 { font-size: 1.42857em; }
+
+.katex .fontsize-ensurer.reset-size3.size7, .katex .sizing.reset-size3.size=
+7 { font-size: 1.71429em; }
+
+.katex .fontsize-ensurer.reset-size3.size8, .katex .sizing.reset-size3.size=
+8 { font-size: 2.05714em; }
+
+.katex .fontsize-ensurer.reset-size3.size9, .katex .sizing.reset-size3.size=
+9 { font-size: 2.46857em; }
+
+.katex .fontsize-ensurer.reset-size3.size10, .katex .sizing.reset-size3.siz=
+e10 { font-size: 2.96286em; }
+
+.katex .fontsize-ensurer.reset-size3.size11, .katex .sizing.reset-size3.siz=
+e11 { font-size: 3.55429em; }
+
+.katex .fontsize-ensurer.reset-size4.size1, .katex .sizing.reset-size4.size=
+1 { font-size: 0.625em; }
+
+.katex .fontsize-ensurer.reset-size4.size2, .katex .sizing.reset-size4.size=
+2 { font-size: 0.75em; }
+
+.katex .fontsize-ensurer.reset-size4.size3, .katex .sizing.reset-size4.size=
+3 { font-size: 0.875em; }
+
+.katex .fontsize-ensurer.reset-size4.size4, .katex .sizing.reset-size4.size=
+4 { font-size: 1em; }
+
+.katex .fontsize-ensurer.reset-size4.size5, .katex .sizing.reset-size4.size=
+5 { font-size: 1.125em; }
+
+.katex .fontsize-ensurer.reset-size4.size6, .katex .sizing.reset-size4.size=
+6 { font-size: 1.25em; }
+
+.katex .fontsize-ensurer.reset-size4.size7, .katex .sizing.reset-size4.size=
+7 { font-size: 1.5em; }
+
+.katex .fontsize-ensurer.reset-size4.size8, .katex .sizing.reset-size4.size=
+8 { font-size: 1.8em; }
+
+.katex .fontsize-ensurer.reset-size4.size9, .katex .sizing.reset-size4.size=
+9 { font-size: 2.16em; }
+
+.katex .fontsize-ensurer.reset-size4.size10, .katex .sizing.reset-size4.siz=
+e10 { font-size: 2.5925em; }
+
+.katex .fontsize-ensurer.reset-size4.size11, .katex .sizing.reset-size4.siz=
+e11 { font-size: 3.11em; }
+
+.katex .fontsize-ensurer.reset-size5.size1, .katex .sizing.reset-size5.size=
+1 { font-size: 0.555556em; }
+
+.katex .fontsize-ensurer.reset-size5.size2, .katex .sizing.reset-size5.size=
+2 { font-size: 0.666667em; }
+
+.katex .fontsize-ensurer.reset-size5.size3, .katex .sizing.reset-size5.size=
+3 { font-size: 0.777778em; }
+
+.katex .fontsize-ensurer.reset-size5.size4, .katex .sizing.reset-size5.size=
+4 { font-size: 0.888889em; }
+
+.katex .fontsize-ensurer.reset-size5.size5, .katex .sizing.reset-size5.size=
+5 { font-size: 1em; }
+
+.katex .fontsize-ensurer.reset-size5.size6, .katex .sizing.reset-size5.size=
+6 { font-size: 1.11111em; }
+
+.katex .fontsize-ensurer.reset-size5.size7, .katex .sizing.reset-size5.size=
+7 { font-size: 1.33333em; }
+
+.katex .fontsize-ensurer.reset-size5.size8, .katex .sizing.reset-size5.size=
+8 { font-size: 1.6em; }
+
+.katex .fontsize-ensurer.reset-size5.size9, .katex .sizing.reset-size5.size=
+9 { font-size: 1.92em; }
+
+.katex .fontsize-ensurer.reset-size5.size10, .katex .sizing.reset-size5.siz=
+e10 { font-size: 2.30444em; }
+
+.katex .fontsize-ensurer.reset-size5.size11, .katex .sizing.reset-size5.siz=
+e11 { font-size: 2.76444em; }
+
+.katex .fontsize-ensurer.reset-size6.size1, .katex .sizing.reset-size6.size=
+1 { font-size: 0.5em; }
+
+.katex .fontsize-ensurer.reset-size6.size2, .katex .sizing.reset-size6.size=
+2 { font-size: 0.6em; }
+
+.katex .fontsize-ensurer.reset-size6.size3, .katex .sizing.reset-size6.size=
+3 { font-size: 0.7em; }
+
+.katex .fontsize-ensurer.reset-size6.size4, .katex .sizing.reset-size6.size=
+4 { font-size: 0.8em; }
+
+.katex .fontsize-ensurer.reset-size6.size5, .katex .sizing.reset-size6.size=
+5 { font-size: 0.9em; }
+
+.katex .fontsize-ensurer.reset-size6.size6, .katex .sizing.reset-size6.size=
+6 { font-size: 1em; }
+
+.katex .fontsize-ensurer.reset-size6.size7, .katex .sizing.reset-size6.size=
+7 { font-size: 1.2em; }
+
+.katex .fontsize-ensurer.reset-size6.size8, .katex .sizing.reset-size6.size=
+8 { font-size: 1.44em; }
+
+.katex .fontsize-ensurer.reset-size6.size9, .katex .sizing.reset-size6.size=
+9 { font-size: 1.728em; }
+
+.katex .fontsize-ensurer.reset-size6.size10, .katex .sizing.reset-size6.siz=
+e10 { font-size: 2.074em; }
+
+.katex .fontsize-ensurer.reset-size6.size11, .katex .sizing.reset-size6.siz=
+e11 { font-size: 2.488em; }
+
+.katex .fontsize-ensurer.reset-size7.size1, .katex .sizing.reset-size7.size=
+1 { font-size: 0.416667em; }
+
+.katex .fontsize-ensurer.reset-size7.size2, .katex .sizing.reset-size7.size=
+2 { font-size: 0.5em; }
+
+.katex .fontsize-ensurer.reset-size7.size3, .katex .sizing.reset-size7.size=
+3 { font-size: 0.583333em; }
+
+.katex .fontsize-ensurer.reset-size7.size4, .katex .sizing.reset-size7.size=
+4 { font-size: 0.666667em; }
+
+.katex .fontsize-ensurer.reset-size7.size5, .katex .sizing.reset-size7.size=
+5 { font-size: 0.75em; }
+
+.katex .fontsize-ensurer.reset-size7.size6, .katex .sizing.reset-size7.size=
+6 { font-size: 0.833333em; }
+
+.katex .fontsize-ensurer.reset-size7.size7, .katex .sizing.reset-size7.size=
+7 { font-size: 1em; }
+
+.katex .fontsize-ensurer.reset-size7.size8, .katex .sizing.reset-size7.size=
+8 { font-size: 1.2em; }
+
+.katex .fontsize-ensurer.reset-size7.size9, .katex .sizing.reset-size7.size=
+9 { font-size: 1.44em; }
+
+.katex .fontsize-ensurer.reset-size7.size10, .katex .sizing.reset-size7.siz=
+e10 { font-size: 1.72833em; }
+
+.katex .fontsize-ensurer.reset-size7.size11, .katex .sizing.reset-size7.siz=
+e11 { font-size: 2.07333em; }
+
+.katex .fontsize-ensurer.reset-size8.size1, .katex .sizing.reset-size8.size=
+1 { font-size: 0.347222em; }
+
+.katex .fontsize-ensurer.reset-size8.size2, .katex .sizing.reset-size8.size=
+2 { font-size: 0.416667em; }
+
+.katex .fontsize-ensurer.reset-size8.size3, .katex .sizing.reset-size8.size=
+3 { font-size: 0.486111em; }
+
+.katex .fontsize-ensurer.reset-size8.size4, .katex .sizing.reset-size8.size=
+4 { font-size: 0.555556em; }
+
+.katex .fontsize-ensurer.reset-size8.size5, .katex .sizing.reset-size8.size=
+5 { font-size: 0.625em; }
+
+.katex .fontsize-ensurer.reset-size8.size6, .katex .sizing.reset-size8.size=
+6 { font-size: 0.694444em; }
+
+.katex .fontsize-ensurer.reset-size8.size7, .katex .sizing.reset-size8.size=
+7 { font-size: 0.833333em; }
+
+.katex .fontsize-ensurer.reset-size8.size8, .katex .sizing.reset-size8.size=
+8 { font-size: 1em; }
+
+.katex .fontsize-ensurer.reset-size8.size9, .katex .sizing.reset-size8.size=
+9 { font-size: 1.2em; }
+
+.katex .fontsize-ensurer.reset-size8.size10, .katex .sizing.reset-size8.siz=
+e10 { font-size: 1.44028em; }
+
+.katex .fontsize-ensurer.reset-size8.size11, .katex .sizing.reset-size8.siz=
+e11 { font-size: 1.72778em; }
+
+.katex .fontsize-ensurer.reset-size9.size1, .katex .sizing.reset-size9.size=
+1 { font-size: 0.289352em; }
+
+.katex .fontsize-ensurer.reset-size9.size2, .katex .sizing.reset-size9.size=
+2 { font-size: 0.347222em; }
+
+.katex .fontsize-ensurer.reset-size9.size3, .katex .sizing.reset-size9.size=
+3 { font-size: 0.405093em; }
+
+.katex .fontsize-ensurer.reset-size9.size4, .katex .sizing.reset-size9.size=
+4 { font-size: 0.462963em; }
+
+.katex .fontsize-ensurer.reset-size9.size5, .katex .sizing.reset-size9.size=
+5 { font-size: 0.520833em; }
+
+.katex .fontsize-ensurer.reset-size9.size6, .katex .sizing.reset-size9.size=
+6 { font-size: 0.578704em; }
+
+.katex .fontsize-ensurer.reset-size9.size7, .katex .sizing.reset-size9.size=
+7 { font-size: 0.694444em; }
+
+.katex .fontsize-ensurer.reset-size9.size8, .katex .sizing.reset-size9.size=
+8 { font-size: 0.833333em; }
+
+.katex .fontsize-ensurer.reset-size9.size9, .katex .sizing.reset-size9.size=
+9 { font-size: 1em; }
+
+.katex .fontsize-ensurer.reset-size9.size10, .katex .sizing.reset-size9.siz=
+e10 { font-size: 1.20023em; }
+
+.katex .fontsize-ensurer.reset-size9.size11, .katex .sizing.reset-size9.siz=
+e11 { font-size: 1.43981em; }
+
+.katex .fontsize-ensurer.reset-size10.size1, .katex .sizing.reset-size10.si=
+ze1 { font-size: 0.24108em; }
+
+.katex .fontsize-ensurer.reset-size10.size2, .katex .sizing.reset-size10.si=
+ze2 { font-size: 0.289296em; }
+
+.katex .fontsize-ensurer.reset-size10.size3, .katex .sizing.reset-size10.si=
+ze3 { font-size: 0.337512em; }
+
+.katex .fontsize-ensurer.reset-size10.size4, .katex .sizing.reset-size10.si=
+ze4 { font-size: 0.385728em; }
+
+.katex .fontsize-ensurer.reset-size10.size5, .katex .sizing.reset-size10.si=
+ze5 { font-size: 0.433944em; }
+
+.katex .fontsize-ensurer.reset-size10.size6, .katex .sizing.reset-size10.si=
+ze6 { font-size: 0.48216em; }
+
+.katex .fontsize-ensurer.reset-size10.size7, .katex .sizing.reset-size10.si=
+ze7 { font-size: 0.578592em; }
+
+.katex .fontsize-ensurer.reset-size10.size8, .katex .sizing.reset-size10.si=
+ze8 { font-size: 0.694311em; }
+
+.katex .fontsize-ensurer.reset-size10.size9, .katex .sizing.reset-size10.si=
+ze9 { font-size: 0.833173em; }
+
+.katex .fontsize-ensurer.reset-size10.size10, .katex .sizing.reset-size10.s=
+ize10 { font-size: 1em; }
+
+.katex .fontsize-ensurer.reset-size10.size11, .katex .sizing.reset-size10.s=
+ize11 { font-size: 1.19961em; }
+
+.katex .fontsize-ensurer.reset-size11.size1, .katex .sizing.reset-size11.si=
+ze1 { font-size: 0.200965em; }
+
+.katex .fontsize-ensurer.reset-size11.size2, .katex .sizing.reset-size11.si=
+ze2 { font-size: 0.241158em; }
+
+.katex .fontsize-ensurer.reset-size11.size3, .katex .sizing.reset-size11.si=
+ze3 { font-size: 0.28135em; }
+
+.katex .fontsize-ensurer.reset-size11.size4, .katex .sizing.reset-size11.si=
+ze4 { font-size: 0.321543em; }
+
+.katex .fontsize-ensurer.reset-size11.size5, .katex .sizing.reset-size11.si=
+ze5 { font-size: 0.361736em; }
+
+.katex .fontsize-ensurer.reset-size11.size6, .katex .sizing.reset-size11.si=
+ze6 { font-size: 0.401929em; }
+
+.katex .fontsize-ensurer.reset-size11.size7, .katex .sizing.reset-size11.si=
+ze7 { font-size: 0.482315em; }
+
+.katex .fontsize-ensurer.reset-size11.size8, .katex .sizing.reset-size11.si=
+ze8 { font-size: 0.578778em; }
+
+.katex .fontsize-ensurer.reset-size11.size9, .katex .sizing.reset-size11.si=
+ze9 { font-size: 0.694534em; }
+
+.katex .fontsize-ensurer.reset-size11.size10, .katex .sizing.reset-size11.s=
+ize10 { font-size: 0.833601em; }
+
+.katex .fontsize-ensurer.reset-size11.size11, .katex .sizing.reset-size11.s=
+ize11 { font-size: 1em; }
+
+.katex .delimsizing.size1 { font-family: KaTeX_Size1; }
+
+.katex .delimsizing.size2 { font-family: KaTeX_Size2; }
+
+.katex .delimsizing.size3 { font-family: KaTeX_Size3; }
+
+.katex .delimsizing.size4 { font-family: KaTeX_Size4; }
+
+.katex .delimsizing.mult .delim-size1 > span { font-family: KaTeX_Size1; }
+
+.katex .delimsizing.mult .delim-size4 > span { font-family: KaTeX_Size4; }
+
+.katex .nulldelimiter { display: inline-block; width: 0.12em; }
+
+.katex .delimcenter, .katex .op-symbol { position: relative; }
+
+.katex .op-symbol.small-op { font-family: KaTeX_Size1; }
+
+.katex .op-symbol.large-op { font-family: KaTeX_Size2; }
+
+.katex .accent > .vlist-t, .katex .op-limits > .vlist-t { text-align: cente=
+r; }
+
+.katex .accent .accent-body { position: relative; }
+
+.katex .accent .accent-body:not(.accent-full) { width: 0px; }
+
+.katex .overlay { display: block; }
+
+.katex .mtable .vertical-separator { display: inline-block; min-width: 1px;=
+ }
+
+.katex .mtable .arraycolsep { display: inline-block; }
+
+.katex .mtable .col-align-c > .vlist-t { text-align: center; }
+
+.katex .mtable .col-align-l > .vlist-t { text-align: left; }
+
+.katex .mtable .col-align-r > .vlist-t { text-align: right; }
+
+.katex .svg-align { text-align: left; }
+
+.katex svg { fill: currentcolor; stroke: currentcolor; fill-rule: nonzero; =
+fill-opacity: 1; stroke-width: 1; stroke-linecap: butt; stroke-linejoin: mi=
+ter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-dashoffset: 0; st=
+roke-opacity: 1; display: block; height: inherit; position: absolute; width=
+: 100%; }
+
+.katex svg path { stroke: none; }
+
+.katex img { border-style: none; max-height: none; max-width: none; min-hei=
+ght: 0px; min-width: 0px; }
+
+.katex .stretchy { display: block; overflow: hidden; position: relative; wi=
+dth: 100%; }
+
+.katex .stretchy::after, .katex .stretchy::before { content: ""; }
+
+.katex .hide-tail { overflow: hidden; position: relative; width: 100%; }
+
+.katex .halfarrow-left { left: 0px; overflow: hidden; position: absolute; w=
+idth: 50.2%; }
+
+.katex .halfarrow-right { overflow: hidden; position: absolute; right: 0px;=
+ width: 50.2%; }
+
+.katex .brace-left { left: 0px; overflow: hidden; position: absolute; width=
+: 25.1%; }
+
+.katex .brace-center { left: 25%; overflow: hidden; position: absolute; wid=
+th: 50%; }
+
+.katex .brace-right { overflow: hidden; position: absolute; right: 0px; wid=
+th: 25.1%; }
+
+.katex .x-arrow-pad { padding: 0px 0.5em; }
+
+.katex .cd-arrow-pad { padding: 0px 0.55556em 0px 0.27778em; }
+
+.katex .mover, .katex .munder, .katex .x-arrow { text-align: center; }
+
+.katex .boxpad { padding: 0px 0.3em; }
+
+.katex .fbox, .katex .fcolorbox { border: 0.04em solid; box-sizing: border-=
+box; }
+
+.katex .cancel-pad { padding: 0px 0.2em; }
+
+.katex .cancel-lap { margin-left: -0.2em; margin-right: -0.2em; }
+
+.katex .sout { border-bottom-style: solid; border-bottom-width: 0.08em; }
+
+.katex .angl { border-right: 0.049em solid; border-top: 0.049em solid; box-=
+sizing: border-box; margin-right: 0.03889em; }
+
+.katex .anglpad { padding: 0px 0.03889em; }
+
+.katex .eqn-num::before { content: "(" counter(katexEqnNo) ")"; counter-inc=
+rement: katexEqnNo 1; }
+
+.katex .mml-eqn-num::before { content: "(" counter(mmlEqnNo) ")"; counter-i=
+ncrement: mmlEqnNo 1; }
+
+.katex .mtr-glue { width: 50%; }
+
+.katex .cd-vert-arrow { display: inline-block; position: relative; }
+
+.katex .cd-label-left { display: inline-block; position: absolute; right: c=
+alc(50% + 0.3em); text-align: left; }
+
+.katex .cd-label-right { display: inline-block; left: calc(50% + 0.3em); po=
+sition: absolute; text-align: right; }
+
+.katex-display { display: block; margin: 1em 0px; text-align: center; }
+
+.katex-display > .katex { display: block; text-align: center; white-space: =
+nowrap; }
+
+.katex-display > .katex > .katex-html { display: block; position: relative;=
+ }
+
+.katex-display > .katex > .katex-html > .tag { position: absolute; right: 0=
+px; }
+
+.katex-display.leqno > .katex > .katex-html > .tag { left: 0px; right: auto=
+; }
+
+.katex-display.fleqn > .katex { padding-left: 2em; text-align: left; }
+
+body { counter-reset: katexEqnNo 0 mmlEqnNo 0; }
+
+@font-face { font-family: "Source Code Pro"; font-weight: 400; src: url("..=
+/media/SourceCodePro-Regular.CBOlD63d.woff2") format("woff2"); }
+
+@font-face { font-family: "Source Code Pro"; font-weight: 600; src: url("..=
+/media/SourceCodePro-SemiBold.CFHwW3Wd.woff2") format("woff2"); }
+
+@font-face { font-family: "Source Code Pro"; font-weight: 700; src: url("..=
+/media/SourceCodePro-Bold.CFEfr7-q.woff2") format("woff2"); }
+
+@font-face { font-family: "Source Code Pro"; font-weight: 400; font-style: =
+italic; src: url("../media/SourceCodePro-Italic.CxFOx7N-.woff2") format("wo=
+ff2"); }
+
+@font-face { font-family: "Source Code Pro"; font-weight: 600; font-style: =
+italic; src: url("../media/SourceCodePro-SemiBoldItalic.Cg2yRu82.woff2") fo=
+rmat("woff2"); }
+
+@font-face { font-family: "Source Code Pro"; font-weight: 700; font-style: =
+italic; src: url("../media/SourceCodePro-BoldItalic.C-LkFXxa.woff2") format=
+("woff2"); }
+
+@font-face { font-family: "Source Sans Pro"; font-weight: 400; src: url("..=
+/media/SourceSansPro-Regular.DZLUzqI4.woff2") format("woff2"); }
+
+@font-face { font-family: "Source Sans Pro"; font-weight: 600; src: url("..=
+/media/SourceSansPro-SemiBold.sKQIyTMz.woff2") format("woff2"); }
+
+@font-face { font-family: "Source Sans Pro"; font-weight: 700; src: url("..=
+/media/SourceSansPro-Bold.-6c9oR8J.woff2") format("woff2"); }
+
+@font-face { font-family: "Source Sans Pro"; font-weight: 400; font-style: =
+italic; src: url("../media/SourceSansPro-Italic.I1ipWe7Q.woff2") format("wo=
+ff2"); }
+
+@font-face { font-family: "Source Sans Pro"; font-weight: 600; font-style: =
+italic; src: url("../media/SourceSansPro-SemiBoldItalic.C0wP0icr.woff2") fo=
+rmat("woff2"); }
+
+@font-face { font-family: "Source Sans Pro"; font-weight: 700; font-style: =
+italic; src: url("../media/SourceSansPro-BoldItalic.DmM_grLY.woff2") format=
+("woff2"); }
+
+@font-face { font-family: "Source Serif Pro"; font-weight: 400; src: url(".=
+./media/SourceSerifPro-Regular.CNJNET2S.woff2") format("woff2"); }
+
+@font-face { font-family: "Source Serif Pro"; font-weight: 600; src: url(".=
+./media/SourceSerifPro-SemiBold.CHyh9GC5.woff2") format("woff2"); }
+
+@font-face { font-family: "Source Serif Pro"; font-weight: 700; src: url(".=
+./media/SourceSerifPro-Bold.8TUnKj4x.woff2") format("woff2"); }
+
+@font-face { font-family: "Source Serif Pro"; font-weight: 400; font-style:=
+ italic; src: url("../media/SourceSerifPro-Italic.DkFgL2HZ.woff2") format("=
+woff2"); }
+
+@font-face { font-family: "Source Serif Pro"; font-weight: 600; font-style:=
+ italic; src: url("../media/SourceSerifPro-SemiBoldItalic.CBtz8sWN.woff2") =
+format("woff2"); }
+
+@font-face { font-family: "Source Serif Pro"; font-weight: 700; font-style:=
+ italic; src: url("../media/SourceSerifPro-BoldItalic.CBVO7Ve7.woff2") form=
+at("woff2"); }
+
+@font-face { font-family: "Material Symbols Rounded"; font-style: normal; f=
+ont-weight: 400; font-display: block; src: url("../media/MaterialSymbols-Ro=
+unded.DcZbplWk.woff2") format("woff2"); }
+------MultipartBoundary--88lptm9fPiabJcEgNkAVXWjUy0KxEp23G9PT80vbEL----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-b0557619-020c-4b97-bce4-4636b08dbf31@mhtml.blink
+
+@charset "utf-8";
+
+.st-emotion-cache-1r4qj8v { position: absolute; background: rgb(255, 255, 2=
+55); color: rgb(49, 51, 63); inset: 0px; color-scheme: light; overflow: hid=
+den; }
+
+@media print {
+  .st-emotion-cache-1r4qj8v { float: none; height: 100%; position: static; =
+overflow: visible; }
+}
+
+.st-emotion-cache-12fmjuu { position: fixed; top: 0px; left: 0px; right: 0p=
+x; height: 3.75rem; background: rgb(255, 255, 255); outline: none; z-index:=
+ 999990; display: block; }
+
+@media print {
+  .st-emotion-cache-12fmjuu { display: none; }
+}
+
+.st-emotion-cache-1dp5vir { position: absolute; top: 0px; right: 0px; left:=
+ 0px; height: 0.125rem; background-image: linear-gradient(90deg, rgb(255, 7=
+5, 75), rgb(255, 253, 128)); z-index: 999990; }
+
+.st-emotion-cache-15ecox0 { position: absolute; top: 1.25rem; right: 1.25re=
+m; display: flex; flex-direction: row; -webkit-box-align: center; align-ite=
+ms: center; }
+
+.st-emotion-cache-1yiq2ps { display: flex; flex-direction: row; -webkit-box=
+-pack: start; place-content: flex-start; -webkit-box-align: stretch; align-=
+items: stretch; position: absolute; inset: 0px; overflow: hidden; }
+
+@media print {
+  .st-emotion-cache-1yiq2ps { overflow: visible; }
+}
+
+.st-emotion-cache-bm2z3a { display: flex; flex-direction: column; width: 10=
+0%; overflow: auto; -webkit-box-align: center; align-items: center; }
+
+.st-emotion-cache-bm2z3a:focus { outline: none; }
+
+@media not print {
+  @media (max-width: 768px) {
+  .st-emotion-cache-bm2z3a { position: absolute; inset: 0px; }
+}
+}
+
+@media print {
+  .st-emotion-cache-bm2z3a { overflow: visible; }
+}
+
+.st-emotion-cache-mtjnbi { width: 100%; padding: 6rem 1rem 10rem; max-width=
+: 736px; }
+
+@media print {
+  .st-emotion-cache-mtjnbi { padding-top: 2.1rem; }
+}
+
+.st-emotion-cache-b95f0i { display: flex; flex-direction: column; flex: 1 1=
+ 0%; }
+
+.st-emotion-cache-18jjdnj { position: relative; display: flex; flex: 1 1 0%=
+; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-kj6hex { width: auto; position: relative; }
+
+@media print {
+  .st-emotion-cache-kj6hex { overflow: visible; }
+}
+
+.st-emotion-cache-kj6hex:is(.stHtml-empty) { display: none; }
+
+.st-emotion-cache-kj6hex:has(> .stCacheSpinner) { height: 0px; overflow: vi=
+sible; visibility: visible; margin-bottom: -1rem; z-index: 101; }
+
+.st-emotion-cache-kj6hex:has(> .stPageLink) { margin-top: -0.375rem; margin=
+-bottom: -0.375rem; }
+
+.st-emotion-cache-1dumvfu { position: relative; bottom: 0px; }
+
+.st-emotion-cache-1q6lfs0 { position: fixed; top: 0px; left: 0px; z-index: =
+1000110; line-height: 100%; }
+
+.st-emotion-cache-1n76uvr { width: 704px; position: relative; display: flex=
+; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-19or5k2.StatusWidget-appear { opacity: 0; }
+
+.st-emotion-cache-19or5k2.StatusWidget-appear-active { opacity: 1; transiti=
+on: opacity 200ms ease-out; }
+
+.st-emotion-cache-19or5k2.StatusWidget-enter { opacity: 0; }
+
+.st-emotion-cache-19or5k2.StatusWidget-enter-active { opacity: 1; transitio=
+n: opacity 200ms ease-out; }
+
+.st-emotion-cache-19or5k2.StatusWidget-exit { opacity: 1; }
+
+.st-emotion-cache-19or5k2.StatusWidget-exit-active { opacity: 0; transition=
+: opacity 200ms ease-out; }
+
+.st-emotion-cache-1p1m4ay { display: flex; -webkit-box-align: center; align=
+-items: center; flex-direction: row; }
+
+.st-emotion-cache-yjrfjy { display: inline-flex; -webkit-box-align: center;=
+ align-items: center; -webkit-box-pack: center; justify-content: center; fo=
+nt-weight: 400; border-radius: 0.5rem; margin: 0px 0.125rem; text-transform=
+: none; font-family: inherit; color: inherit; width: auto; cursor: pointer;=
+ user-select: none; background-color: transparent; border: none; padding: 0=
+.5rem; font-size: 0.875rem; line-height: 1; min-width: 2rem; min-height: 2r=
+em; }
+
+.st-emotion-cache-yjrfjy:focus { outline: none; }
+
+.st-emotion-cache-yjrfjy:focus-visible { box-shadow: rgba(255, 75, 75, 0.5)=
+ 0px 0px 0px 0.2rem; }
+
+.st-emotion-cache-yjrfjy:focus { outline: none; }
+
+.st-emotion-cache-yjrfjy:focus-visible { box-shadow: rgba(38, 39, 48, 0.2) =
+0px 0px 0px 0.2rem; }
+
+.st-emotion-cache-yjrfjy:hover { background-color: rgba(151, 166, 195, 0.25=
+); }
+
+.st-emotion-cache-yjrfjy:disabled, .st-emotion-cache-yjrfjy:disabled:hover,=
+ .st-emotion-cache-yjrfjy:disabled:active { background-color: rgb(230, 234,=
+ 241); border-color: transparent; color: rgb(163, 168, 184); }
+
+.st-emotion-cache-1wbqy5l { display: flex; gap: 0.5rem; -webkit-box-align: =
+center; align-items: center; line-height: 0.9rem; }
+
+.st-emotion-cache-czk5ss { line-height: initial; }
+
+.st-emotion-cache-l1ktzw { display: inline-flex; -webkit-box-align: center;=
+ align-items: center; -webkit-box-pack: center; justify-content: center; fo=
+nt-weight: 400; border-radius: 0.5rem; margin: 0px 0.125rem; text-transform=
+: none; font-family: inherit; color: inherit; width: auto; cursor: pointer;=
+ user-select: none; background-color: transparent; border: none; font-size:=
+ 0.875rem; line-height: 1; min-width: 2rem; min-height: 2rem; padding: 0px;=
+ }
+
+.st-emotion-cache-l1ktzw:focus { outline: none; }
+
+.st-emotion-cache-l1ktzw:focus-visible { box-shadow: rgba(255, 75, 75, 0.5)=
+ 0px 0px 0px 0.2rem; }
+
+.st-emotion-cache-l1ktzw:focus { outline: none; }
+
+.st-emotion-cache-l1ktzw:focus-visible { box-shadow: rgba(38, 39, 48, 0.2) =
+0px 0px 0px 0.2rem; }
+
+.st-emotion-cache-l1ktzw:hover { background-color: rgba(151, 166, 195, 0.25=
+); }
+
+.st-emotion-cache-l1ktzw:disabled, .st-emotion-cache-l1ktzw:disabled:hover,=
+ .st-emotion-cache-l1ktzw:disabled:active { background-color: rgb(230, 234,=
+ 241); border-color: transparent; color: rgb(163, 168, 184); }
+
+.st-emotion-cache-1xx487x { color: inherit; fill: currentcolor; display: in=
+line-flex; -webkit-box-align: center; align-items: center; font-size: 1.25r=
+em; width: 1.25rem; height: 1.25rem; flex-shrink: 0; }
+
+.st-emotion-cache-1pbsqtx { vertical-align: middle; overflow: hidden; color=
+: inherit; fill: currentcolor; display: inline-flex; -webkit-box-align: cen=
+ter; align-items: center; font-size: 1.25rem; width: 1.25rem; height: 1.25r=
+em; flex-shrink: 0; }
+
+.st-emotion-cache-t1wise { width: 100%; padding: 6rem 1rem 10rem; max-width=
+: initial; min-width: auto; }
+
+@media (min-width: calc(736px + 8rem)) {
+  .st-emotion-cache-t1wise { padding-left: 5rem; padding-right: 5rem; }
+}
+
+@media print {
+  .st-emotion-cache-t1wise { padding-top: 2.1rem; }
+}
+
+.st-emotion-cache-1i6lr5d { position: fixed; top: 1.25rem; left: 1.5rem; z-=
+index: 999990; display: flex; -webkit-box-pack: center; justify-content: ce=
+nter; -webkit-box-align: center; align-items: center; }
+
+@media print {
+  .st-emotion-cache-1i6lr5d { position: absolute; left: 0px; top: 0px; marg=
+in-top: 0px; }
+  .st-emotion-cache-1i6lr5d > .e1tphpha12 { margin-top: 0px; }
+}
+
+.st-emotion-cache-11ukie { height: 2rem; }
+
+.st-emotion-cache-169dgwr { z-index: 999990; color: rgba(49, 51, 63, 0.6); =
+margin-top: 0.25rem; }
+
+.st-emotion-cache-169dgwr button:hover { background-color: rgba(151, 166, 1=
+95, 0.25); }
+
+@media print {
+  .st-emotion-cache-169dgwr { display: none; }
+}
+
+.st-emotion-cache-vfrwge { color: inherit; fill: currentcolor; display: inl=
+ine-flex; -webkit-box-align: center; align-items: center; font-size: 1.5rem=
+; width: 1.5rem; height: 1.5rem; flex-shrink: 0; }
+
+.st-emotion-cache-1f3w014 { vertical-align: middle; overflow: hidden; color=
+: inherit; fill: currentcolor; display: inline-flex; -webkit-box-align: cen=
+ter; align-items: center; font-size: 1.5rem; width: 1.5rem; height: 1.5rem;=
+ flex-shrink: 0; }
+
+.st-emotion-cache-vmpjyt { position: relative; top: 0.125rem; background-co=
+lor: rgb(240, 242, 246); z-index: 999991; min-width: 244px; max-width: 550p=
+x; transform: none; transition: transform 300ms, min-width 300ms, max-width=
+ 300ms; }
+
+.st-emotion-cache-vmpjyt:focus { outline: none; }
+
+@media (max-width: 768px) {
+  .st-emotion-cache-vmpjyt { box-shadow: rgba(0, 0, 0, 0.16) -2rem 0px 2rem=
+ 2rem; }
+}
+
+@media print {
+  .st-emotion-cache-vmpjyt { display: initial; max-height: 99%; box-shadow:=
+ none; height: auto !important; }
+}
+
+.st-emotion-cache-6qob1r { position: relative; height: 100%; width: 100%; o=
+verflow: overlay; }
+
+.st-emotion-cache-kgpedg { display: flex; -webkit-box-pack: justify; justif=
+y-content: space-between; -webkit-box-align: start; align-items: start; pad=
+ding: calc(1.375rem) 1.5rem 1.5rem; }
+
+.st-emotion-cache-179n174 { display: none; transition: left 300ms; color: r=
+gba(49, 51, 63, 0.6); line-height: 0; }
+
+@media print {
+  .st-emotion-cache-179n174 { display: none; }
+}
+
+@media (max-width: 576px) {
+  .st-emotion-cache-179n174 { display: inline; }
+}
+
+.st-emotion-cache-a6qe2i { padding: 0px 1.5rem 6rem; }
+
+.st-emotion-cache-8atqhb { width: 100%; }
+
+.st-emotion-cache-3gzemd { font-family: "Source Sans Pro", sans-serif; font=
+-size: 1rem; margin-bottom: -1rem; color: inherit; }
+
+.st-emotion-cache-3gzemd a { color: rgb(0, 104, 201); text-decoration: unde=
+rline; }
+
+.st-emotion-cache-3gzemd h1, .st-emotion-cache-3gzemd h2, .st-emotion-cache=
+-3gzemd h3, .st-emotion-cache-3gzemd h4, .st-emotion-cache-3gzemd h5, .st-e=
+motion-cache-3gzemd h6 { font-family: "Source Sans Pro", sans-serif; font-w=
+eight: 600; line-height: 1.2; margin: 0px; color: inherit; }
+
+.st-emotion-cache-3gzemd h1 { font-size: 1.5rem; font-weight: 600; padding:=
+ 1.25rem 0px 1rem; }
+
+.st-emotion-cache-3gzemd h1 b, .st-emotion-cache-3gzemd h1 strong { font-we=
+ight: 700; }
+
+.st-emotion-cache-3gzemd h2, .st-emotion-cache-3gzemd h3 { letter-spacing: =
+-0.005em; }
+
+.st-emotion-cache-3gzemd h2 { font-size: 1.25rem; padding: 1rem 0px; }
+
+.st-emotion-cache-3gzemd h3 { font-size: 1.125rem; padding: 0.5rem 0px 1rem=
+; }
+
+.st-emotion-cache-3gzemd h4 { font-size: 1rem; padding: 0.75rem 0px 1rem; }
+
+.st-emotion-cache-3gzemd h5 { font-size: 0.875rem; padding: 0px 0px 1rem; }
+
+.st-emotion-cache-3gzemd h6 { font-size: 0.75rem; padding: 0px 0px 1rem; }
+
+.st-emotion-cache-3gzemd p { word-break: break-word; margin-top: 0px; margi=
+n-left: 0px; margin-right: 0px; }
+
+.st-emotion-cache-3gzemd img { max-width: 100%; vertical-align: middle; }
+
+.st-emotion-cache-3gzemd li { margin: 0.2em 0px 0.2em 1.2em; padding: 0px 0=
+px 0px 0.6em; }
+
+.st-emotion-cache-3gzemd blockquote { margin: 1em 0px; padding: 0px 0px 0px=
+ 1.2em; border-left: 1px solid rgb(230, 234, 241); }
+
+.st-emotion-cache-3gzemd b, .st-emotion-cache-3gzemd strong { font-weight: =
+600; }
+
+.st-emotion-cache-3gzemd hr { margin: 2em 0px; padding: 0px; color: inherit=
+; background-color: transparent; border-top: none; border-right: none; bord=
+er-left: none; border-image: initial; border-bottom: 1px solid rgba(49, 51,=
+ 63, 0.2); }
+
+.st-emotion-cache-3gzemd hr:not([size]) { height: 1px; }
+
+.st-emotion-cache-3gzemd table { margin-bottom: 1rem; border-collapse: coll=
+apse; }
+
+.st-emotion-cache-3gzemd tr { border-top: 1px solid rgba(49, 51, 63, 0.2); =
+}
+
+.st-emotion-cache-3gzemd th { text-align: inherit; }
+
+.st-emotion-cache-3gzemd th, .st-emotion-cache-3gzemd td { padding: 0.375re=
+m 0.75rem; border: 1px solid rgba(49, 51, 63, 0.2); }
+
+.st-emotion-cache-3gzemd span.has-background-color { padding: 0.125rem 0.25=
+rem; margin: 0px; border-radius: 0.25rem; }
+
+.st-emotion-cache-3gzemd p, .st-emotion-cache-3gzemd ol, .st-emotion-cache-=
+3gzemd ul, .st-emotion-cache-3gzemd dl, .st-emotion-cache-3gzemd li { font-=
+size: inherit; }
+
+.st-emotion-cache-7cllse { height: 2.75rem; width: 100%; background: rgba(1=
+51, 166, 195, 0.15); border-radius: 0.5rem; animation-duration: 750ms; anim=
+ation-name: animation-1wgitoe; animation-timing-function: ease-in; animatio=
+n-direction: normal; animation-iteration-count: infinite; }
+
+@-webkit-keyframes animation-1wgitoe {=20
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+@keyframes animation-1wgitoe {=20
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+.st-emotion-cache-gggys9 { position: absolute; width: 8px; height: 100%; cu=
+rsor: col-resize; z-index: 999995; }
+
+.st-emotion-cache-gggys9:hover { background-image: linear-gradient(to right=
+, transparent 20%, rgba(49, 51, 63, 0.3) 28%, transparent 36%); }
+
+.st-emotion-cache-b499ls { width: 100%; padding: 6rem 1rem 1rem; max-width:=
+ initial; min-width: auto; }
+
+@media (min-width: calc(736px + 8rem)) {
+  .st-emotion-cache-b499ls { padding-left: 5rem; padding-right: 5rem; }
+}
+
+@media print {
+  .st-emotion-cache-b499ls { padding-top: 2.1rem; }
+}
+
+.st-emotion-cache-1104ytp { font-family: "Source Sans Pro", sans-serif; fon=
+t-size: 1rem; margin-bottom: -1rem; color: inherit; }
+
+.st-emotion-cache-1104ytp a { color: rgb(0, 104, 201); text-decoration: und=
+erline; }
+
+.st-emotion-cache-1104ytp h1, .st-emotion-cache-1104ytp h2, .st-emotion-cac=
+he-1104ytp h3, .st-emotion-cache-1104ytp h4, .st-emotion-cache-1104ytp h5, =
+.st-emotion-cache-1104ytp h6 { font-family: "Source Sans Pro", sans-serif; =
+font-weight: 600; line-height: 1.2; margin: 0px; color: inherit; }
+
+.st-emotion-cache-1104ytp h1 { font-size: 2.75rem; font-weight: 700; paddin=
+g: 1.25rem 0px 1rem; }
+
+.st-emotion-cache-1104ytp h1 b, .st-emotion-cache-1104ytp h1 strong { font-=
+weight: 700; }
+
+.st-emotion-cache-1104ytp h2, .st-emotion-cache-1104ytp h3 { letter-spacing=
+: -0.005em; }
+
+.st-emotion-cache-1104ytp h2 { font-size: 2.25rem; padding: 1rem 0px; }
+
+.st-emotion-cache-1104ytp h3 { font-size: 1.75rem; padding: 0.5rem 0px 1rem=
+; }
+
+.st-emotion-cache-1104ytp h4 { font-size: 1.5rem; padding: 0.75rem 0px 1rem=
+; }
+
+.st-emotion-cache-1104ytp h5 { font-size: 1.25rem; padding: 0px 0px 1rem; }
+
+.st-emotion-cache-1104ytp h6 { font-size: 1rem; padding: 0px 0px 1rem; }
+
+.st-emotion-cache-1104ytp p { word-break: break-word; margin-top: 0px; marg=
+in-left: 0px; margin-right: 0px; }
+
+.st-emotion-cache-1104ytp img { max-width: 100%; vertical-align: middle; }
+
+.st-emotion-cache-1104ytp li { margin: 0.2em 0px 0.2em 1.2em; padding: 0px =
+0px 0px 0.6em; }
+
+.st-emotion-cache-1104ytp blockquote { margin: 1em 0px; padding: 0px 0px 0p=
+x 1.2em; border-left: 1px solid rgb(230, 234, 241); }
+
+.st-emotion-cache-1104ytp b, .st-emotion-cache-1104ytp strong { font-weight=
+: 600; }
+
+.st-emotion-cache-1104ytp hr { margin: 2em 0px; padding: 0px; color: inheri=
+t; background-color: transparent; border-top: none; border-right: none; bor=
+der-left: none; border-image: initial; border-bottom: 1px solid rgba(49, 51=
+, 63, 0.2); }
+
+.st-emotion-cache-1104ytp hr:not([size]) { height: 1px; }
+
+.st-emotion-cache-1104ytp table { margin-bottom: 1rem; border-collapse: col=
+lapse; }
+
+.st-emotion-cache-1104ytp tr { border-top: 1px solid rgba(49, 51, 63, 0.2);=
+ }
+
+.st-emotion-cache-1104ytp th { text-align: inherit; }
+
+.st-emotion-cache-1104ytp th, .st-emotion-cache-1104ytp td { padding: 0.375=
+rem 0.75rem; border: 1px solid rgba(49, 51, 63, 0.2); }
+
+.st-emotion-cache-1104ytp span.has-background-color { padding: 0.125rem 0.2=
+5rem; margin: 0px; border-radius: 0.25rem; }
+
+.st-emotion-cache-1104ytp p, .st-emotion-cache-1104ytp ol, .st-emotion-cach=
+e-1104ytp ul, .st-emotion-cache-1104ytp dl, .st-emotion-cache-1104ytp li { =
+font-size: inherit; }
+
+.st-emotion-cache-1p9ibxm { word-break: break-word; text-wrap: pretty; }
+
+.st-emotion-cache-1p9ibxm h1, .st-emotion-cache-1p9ibxm h2, .st-emotion-cac=
+he-1p9ibxm h3, .st-emotion-cache-1p9ibxm h4, .st-emotion-cache-1p9ibxm h5, =
+.st-emotion-cache-1p9ibxm h6, .st-emotion-cache-1p9ibxm span { scroll-margi=
+n-top: 3.75rem; }
+
+.st-emotion-cache-1p9ibxm a { color: rgb(0, 104, 201); text-decoration: und=
+erline; }
+
+.st-emotion-cache-1p9ibxm .e1icttdg1 { visibility: hidden; }
+
+.st-emotion-cache-1p9ibxm:hover .e1icttdg1 { visibility: visible; }
+
+.st-emotion-cache-gi0tri { margin-left: 0.5rem; display: inline-flex; gap: =
+0.5rem; vertical-align: middle; }
+
+.st-emotion-cache-gi0tri > * { margin-left: 0px !important; }
+
+.st-emotion-cache-qcqlej { width: 100%; -webkit-box-flex: 1; flex-grow: 1; =
+}
+
+.st-emotion-cache-1p2n2i4 { position: sticky; left: 0px; bottom: 0px; width=
+: 100%; z-index: 99; }
+
+@media print {
+  .st-emotion-cache-1p2n2i4 { position: static; }
+}
+
+.st-emotion-cache-128upt6 { position: relative; bottom: 0px; width: 100%; m=
+in-width: 100%; background-color: rgb(255, 255, 255); display: flex; flex-d=
+irection: column; -webkit-box-align: center; align-items: center; }
+
+.st-emotion-cache-1y34ygi { width: 100%; padding: 1rem 1rem 3.5rem; max-wid=
+th: initial; min-width: auto; }
+
+@media (min-width: calc(736px + 8rem)) {
+  .st-emotion-cache-1y34ygi { padding-left: 5rem; padding-right: 5rem; }
+}
+
+@media print {
+  .st-emotion-cache-1y34ygi { padding-top: 0px; }
+}
+
+.st-emotion-cache-1a65djw { width: 502px; position: relative; display: flex=
+; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-kc61na { width: 1210px; position: relative; display: flex=
+; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-yinll1 { line-height: 0; display: inline-flex; -webkit-bo=
+x-align: center; align-items: center; -webkit-box-pack: center; justify-con=
+tent: center; }
+
+.st-emotion-cache-yinll1 svg { stroke: rgba(49, 51, 63, 0.6); stroke-width:=
+ 2.25; }
+
+.st-emotion-cache-yinll1:hover svg { stroke: rgb(49, 51, 63); }
+
+.st-emotion-cache-1dtfyw6 { display: inline-flex; -webkit-box-align: center=
+; align-items: center; -webkit-box-pack: center; justify-content: center; f=
+ont-weight: 400; padding: 0.25rem 0.75rem; border-radius: 0.5rem; min-heigh=
+t: 2.5rem; margin: 0px; line-height: 1.6; text-transform: none; font-size: =
+inherit; font-family: inherit; width: auto; cursor: pointer; user-select: n=
+one; background-color: rgb(255, 75, 75); color: rgb(255, 255, 255); border:=
+ 1px solid rgb(255, 75, 75); }
+
+.st-emotion-cache-1dtfyw6:focus { outline: none; }
+
+.st-emotion-cache-1dtfyw6:focus-visible { box-shadow: rgba(255, 75, 75, 0.5=
+) 0px 0px 0px 0.2rem; }
+
+.st-emotion-cache-1dtfyw6:hover { background-color: rgb(255, 51, 51); }
+
+.st-emotion-cache-1dtfyw6:active { background-color: transparent; color: rg=
+b(255, 75, 75); }
+
+.st-emotion-cache-1dtfyw6:disabled, .st-emotion-cache-1dtfyw6:disabled:hove=
+r, .st-emotion-cache-1dtfyw6:disabled:active { border-color: rgba(49, 51, 6=
+3, 0.2); background-color: transparent; color: rgba(49, 51, 63, 0.4); curso=
+r: not-allowed; }
+
+.st-emotion-cache-1m4c89a { font-family: "Source Sans Pro", sans-serif; fon=
+t-size: 1rem; color: inherit; }
+
+.st-emotion-cache-1m4c89a a { color: rgb(0, 104, 201); text-decoration: und=
+erline; }
+
+.st-emotion-cache-1m4c89a h1, .st-emotion-cache-1m4c89a h2, .st-emotion-cac=
+he-1m4c89a h3, .st-emotion-cache-1m4c89a h4, .st-emotion-cache-1m4c89a h5, =
+.st-emotion-cache-1m4c89a h6 { font-family: "Source Sans Pro", sans-serif; =
+font-weight: 600; line-height: 1.2; margin: 0px; color: inherit; }
+
+.st-emotion-cache-1m4c89a h1 { font-size: 1.5rem; font-weight: 600; padding=
+: 1.25rem 0px 1rem; }
+
+.st-emotion-cache-1m4c89a h1 b, .st-emotion-cache-1m4c89a h1 strong { font-=
+weight: 700; }
+
+.st-emotion-cache-1m4c89a h2, .st-emotion-cache-1m4c89a h3 { letter-spacing=
+: -0.005em; }
+
+.st-emotion-cache-1m4c89a h2 { font-size: 1.25rem; padding: 1rem 0px; }
+
+.st-emotion-cache-1m4c89a h3 { font-size: 1.125rem; padding: 0.5rem 0px 1re=
+m; }
+
+.st-emotion-cache-1m4c89a h4 { font-size: 1rem; padding: 0.75rem 0px 1rem; =
+}
+
+.st-emotion-cache-1m4c89a h5 { font-size: 0.875rem; padding: 0px 0px 1rem; =
+}
+
+.st-emotion-cache-1m4c89a h6 { font-size: 0.75rem; padding: 0px 0px 1rem; }
+
+.st-emotion-cache-1m4c89a p { word-break: break-word; margin: 0px; }
+
+.st-emotion-cache-1m4c89a img { max-width: 100%; max-height: 1em; vertical-=
+align: middle; }
+
+.st-emotion-cache-1m4c89a li { margin: 0.2em 0px 0.2em 1.2em; padding: 0px =
+0px 0px 0.6em; }
+
+.st-emotion-cache-1m4c89a blockquote { margin: 1em 0px; padding: 0px 0px 0p=
+x 1.2em; border-left: 1px solid rgb(230, 234, 241); }
+
+.st-emotion-cache-1m4c89a b, .st-emotion-cache-1m4c89a strong { font-weight=
+: 600; }
+
+.st-emotion-cache-1m4c89a hr { margin: 2em 0px; padding: 0px; color: inheri=
+t; background-color: transparent; border-top: none; border-right: none; bor=
+der-left: none; border-image: initial; border-bottom: 1px solid rgba(49, 51=
+, 63, 0.2); }
+
+.st-emotion-cache-1m4c89a hr:not([size]) { height: 1px; }
+
+.st-emotion-cache-1m4c89a table { margin-bottom: 1rem; border-collapse: col=
+lapse; }
+
+.st-emotion-cache-1m4c89a tr { border-top: 1px solid rgba(49, 51, 63, 0.2);=
+ }
+
+.st-emotion-cache-1m4c89a th { text-align: inherit; }
+
+.st-emotion-cache-1m4c89a th, .st-emotion-cache-1m4c89a td { padding: 0.375=
+rem 0.75rem; border: 1px solid rgba(49, 51, 63, 0.2); }
+
+.st-emotion-cache-1m4c89a span.has-background-color { padding: 0.125rem 0.2=
+5rem; margin: 0px; border-radius: 0.25rem; }
+
+.st-emotion-cache-1m4c89a p, .st-emotion-cache-1m4c89a ol, .st-emotion-cach=
+e-1m4c89a ul, .st-emotion-cache-1m4c89a dl, .st-emotion-cache-1m4c89a li { =
+font-size: inherit; }
+
+.st-emotion-cache-1eeryuo { border: none; position: relative; display: flex=
+; }
+
+.st-emotion-cache-yd4u6l { border: 1px solid transparent; border-radius: 1.=
+25rem; background-color: rgb(240, 242, 246); position: relative; -webkit-bo=
+x-flex: 1; flex-grow: 1; display: flex; -webkit-box-align: center; align-it=
+ems: center; padding-left: 1rem; max-height: 2.5rem; gap: 0.5rem; overflow:=
+ hidden; }
+
+.st-emotion-cache-yd4u6l:focus-within { border-color: rgb(255, 75, 75); }
+
+.st-emotion-cache-sey4o0 { display: flex; align-items: flex-end; height: 10=
+0%; position: absolute; right: 0px; margin-bottom: -1px; pointer-events: no=
+ne; }
+
+.st-emotion-cache-1nzi1q1 { border: none; background-color: transparent; bo=
+rder-top-right-radius: 1.25rem; border-top-left-radius: 0px; border-bottom-=
+right-radius: 1.25rem; display: inline-flex; -webkit-box-align: center; ali=
+gn-items: center; -webkit-box-pack: center; justify-content: center; line-h=
+eight: 1; margin: 0px; padding: 0.5rem; color: rgb(163, 168, 184); pointer-=
+events: auto; }
+
+.st-emotion-cache-1nzi1q1:focus { outline: none; }
+
+.st-emotion-cache-1nzi1q1:focus { outline: none; }
+
+.st-emotion-cache-1nzi1q1:focus-visible { background-color: rgb(250, 250, 2=
+50); }
+
+.st-emotion-cache-1nzi1q1:hover { color: rgb(255, 75, 75); }
+
+.st-emotion-cache-1nzi1q1:disabled, .st-emotion-cache-1nzi1q1:disabled:hove=
+r, .st-emotion-cache-1nzi1q1:disabled:active { background-color: transparen=
+t; border-color: transparent; color: rgb(163, 168, 184); cursor: not-allowe=
+d; }
+
+.st-emotion-cache-12o5wl7 { position: absolute; bottom: 0px; right: calc(3r=
+em); }
+
+.st-emotion-cache-1v8vu51 { font-size: 0.75rem; color: rgba(49, 51, 63, 0.6=
+); margin: 0px; text-align: right; position: absolute; bottom: 0px; right: =
+calc(0.4375rem); }
+
+.st-emotion-cache-1yk2xem { border: 1px solid transparent; border-radius: 1=
+.25rem; background-color: rgb(240, 242, 246); position: relative; -webkit-b=
+ox-flex: 1; flex-grow: 1; display: flex; -webkit-box-align: center; align-i=
+tems: center; padding-left: 1rem; max-height: none; gap: 0.5rem; overflow: =
+hidden; }
+
+.st-emotion-cache-1yk2xem:focus-within { border-color: rgb(255, 75, 75); }
+
+.st-emotion-cache-ormc2w { border: none; background-color: transparent; bor=
+der-top-right-radius: 0px; border-top-left-radius: 0.5rem; border-bottom-ri=
+ght-radius: 1.25rem; display: inline-flex; -webkit-box-align: center; align=
+-items: center; -webkit-box-pack: center; justify-content: center; line-hei=
+ght: 1; margin: 0px; padding: 0.5rem; color: rgb(85, 88, 103); pointer-even=
+ts: auto; }
+
+.st-emotion-cache-ormc2w:focus { outline: none; }
+
+.st-emotion-cache-ormc2w:focus { outline: none; }
+
+.st-emotion-cache-ormc2w:focus-visible { background-color: rgb(250, 250, 25=
+0); }
+
+.st-emotion-cache-ormc2w:hover { color: rgb(255, 75, 75); }
+
+.st-emotion-cache-ormc2w:disabled, .st-emotion-cache-ormc2w:disabled:hover,=
+ .st-emotion-cache-ormc2w:disabled:active { background-color: transparent; =
+border-color: transparent; color: rgb(163, 168, 184); cursor: not-allowed; =
+}
+
+.st-emotion-cache-1ik1b63 { border: none; background-color: transparent; bo=
+rder-top-right-radius: 0px; border-top-left-radius: 0.5rem; border-bottom-r=
+ight-radius: 1.25rem; display: inline-flex; -webkit-box-align: center; alig=
+n-items: center; -webkit-box-pack: center; justify-content: center; line-he=
+ight: 1; margin: 0px; padding: 0.5rem; color: rgb(163, 168, 184); pointer-e=
+vents: auto; }
+
+.st-emotion-cache-1ik1b63:focus { outline: none; }
+
+.st-emotion-cache-1ik1b63:focus { outline: none; }
+
+.st-emotion-cache-1ik1b63:focus-visible { background-color: rgb(250, 250, 2=
+50); }
+
+.st-emotion-cache-1ik1b63:hover { color: rgb(255, 75, 75); }
+
+.st-emotion-cache-1ik1b63:disabled, .st-emotion-cache-1ik1b63:disabled:hove=
+r, .st-emotion-cache-1ik1b63:disabled:active { background-color: transparen=
+t; border-color: transparent; color: rgb(163, 168, 184); cursor: not-allowe=
+d; }
+
+.st-emotion-cache-4z1n4l { display: flex; -webkit-box-align: center; align-=
+items: center; -webkit-box-pack: center; justify-content: center; border-ra=
+dius: 0.25rem; margin: 0px 0.5rem 0px 0px; padding-left: 0.5rem; height: 1.=
+6rem; }
+
+.st-emotion-cache-1j15ncu { opacity: 0.4; width: 1.6rem; height: 1.6rem; ma=
+rgin-right: -0.5rem; }
+
+.st-emotion-cache-1mw7iut { font-size: 0.875rem; color: rgb(163, 168, 184);=
+ text-transform: uppercase; margin: 0px 0px 0px 1rem; white-space: nowrap; =
+max-width: 20rem; transition: opacity 200ms ease-out, clip 200ms ease-out, =
+min-width 200ms ease-out, max-width 200ms ease-out, padding 200ms ease-out;=
+ }
+
+.st-emotion-cache-14x9thb { margin-left: 0.5rem; white-space: nowrap; trans=
+ition: opacity 200ms ease-out, clip 200ms ease-out, min-width 200ms ease-ou=
+t, max-width 200ms ease-out, padding 200ms ease-out; }
+
+.st-emotion-cache-c6zt5w { display: inline-flex; -webkit-box-align: center;=
+ align-items: center; -webkit-box-pack: center; justify-content: center; fo=
+nt-weight: 400; border-radius: 0.5rem; margin: 0px 0.125rem; text-transform=
+: none; font-family: inherit; color: inherit; width: 100%; cursor: pointer;=
+ user-select: none; background-color: transparent; border: none; padding: 0=
+.5rem; font-size: 0.875rem; line-height: 1; min-width: 2rem; min-height: 2r=
+em; }
+
+.st-emotion-cache-c6zt5w:focus { outline: none; }
+
+.st-emotion-cache-c6zt5w:focus-visible { box-shadow: rgba(255, 75, 75, 0.5)=
+ 0px 0px 0px 0.2rem; }
+
+.st-emotion-cache-c6zt5w:focus { outline: none; }
+
+.st-emotion-cache-c6zt5w:focus-visible { box-shadow: rgba(38, 39, 48, 0.2) =
+0px 0px 0px 0.2rem; }
+
+.st-emotion-cache-c6zt5w:hover { background-color: rgba(151, 166, 195, 0.25=
+); }
+
+.st-emotion-cache-c6zt5w:disabled, .st-emotion-cache-c6zt5w:disabled:hover,=
+ .st-emotion-cache-c6zt5w:disabled:active { background-color: rgb(230, 234,=
+ 241); border-color: transparent; color: rgb(163, 168, 184); }
+
+.st-emotion-cache-1wldddi { width: auto; position: relative; opacity: 0.33;=
+ transition: opacity 1s ease-in 0.5s; }
+
+@media print {
+  .st-emotion-cache-1wldddi { overflow: visible; }
+}
+
+.st-emotion-cache-1wldddi:is(.stHtml-empty) { display: none; }
+
+.st-emotion-cache-1wldddi:has(> .stCacheSpinner) { height: 0px; overflow: v=
+isible; visibility: visible; margin-bottom: -1rem; z-index: 101; }
+
+.st-emotion-cache-1wldddi:has(> .stPageLink) { margin-top: -0.375rem; margi=
+n-bottom: -0.375rem; }
+
+.st-emotion-cache-1c7y2kd { display: flex; align-items: flex-start; gap: 0.=
+5rem; padding: 1rem; border-radius: 0.5rem; background-color: rgba(240, 242=
+, 246, 0.5); }
+
+.st-emotion-cache-1ghhuty { display: flex; width: 2rem; height: 2rem; flex-=
+shrink: 0; border-radius: 0.5rem; -webkit-box-align: center; align-items: c=
+enter; -webkit-box-pack: center; justify-content: center; background-color:=
+ rgb(255, 108, 108); color: rgb(255, 255, 255); }
+
+.st-emotion-cache-1flajlm { color: rgb(49, 51, 63); margin: auto; -webkit-b=
+ox-flex: 1; flex-grow: 1; min-width: 0px; }
+
+.st-emotion-cache-4oy321 { display: flex; align-items: flex-start; gap: 0.5=
+rem; padding: 1rem 0px 1rem 1rem; border-radius: 0.5rem; }
+
+.st-emotion-cache-bho8sy { display: flex; width: 2rem; height: 2rem; flex-s=
+hrink: 0; border-radius: 0.5rem; -webkit-box-align: center; align-items: ce=
+nter; -webkit-box-pack: center; justify-content: center; background-color: =
+rgb(255, 189, 69); color: rgb(255, 255, 255); }
+
+.st-emotion-cache-20nb5y { width: auto; position: relative; opacity: 0.33; =
+transition: opacity 1s ease-in 0.5s; display: none; }
+
+@media print {
+  .st-emotion-cache-20nb5y { overflow: visible; }
+}
+
+.st-emotion-cache-20nb5y:is(.stHtml-empty) { display: none; }
+
+.st-emotion-cache-20nb5y:has(> .stCacheSpinner) { height: 0px; overflow: vi=
+sible; visibility: visible; margin-bottom: -1rem; z-index: 101; }
+
+.st-emotion-cache-20nb5y:has(> .stPageLink) { margin-top: -0.375rem; margin=
+-bottom: -0.375rem; }
+
+.st-emotion-cache-hymv7g { width: 1138px; position: relative; display: flex=
+; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-gieqmy { width: 1154px; position: relative; display: flex=
+; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-j78z8c { display: flex; gap: 0.5rem; -webkit-box-align: c=
+enter; align-items: center; width: 100%; }
+
+.st-emotion-cache-kk9vzh { font-size: 0.875rem; width: 1.375rem; height: 1.=
+375rem; border-width: 0.2rem; padding: 0px; margin: 0px; border-color: rgb(=
+28, 131, 225) rgba(49, 51, 63, 0.2) rgba(49, 51, 63, 0.2); -webkit-box-flex=
+: 0; flex-grow: 0; flex-shrink: 0; }
+
+.st-emotion-cache-ocqkz7 { display: flex; flex-wrap: wrap; -webkit-box-flex=
+: 1; flex-grow: 1; -webkit-box-align: stretch; align-items: stretch; gap: 1=
+rem; }
+
+.st-emotion-cache-180ybpv { width: calc(25% - 1rem); flex: 1 1 calc(25% - 1=
+rem); }
+
+@media (max-width: 640px) {
+  .st-emotion-cache-180ybpv { min-width: calc(100% - 1.5rem); }
+}
+
+.st-emotion-cache-180ybpv .eu6p4el1:first-of-type > .eg2gxky0 { margin-top:=
+ 0.5rem; }
+
+.st-emotion-cache-t74pzu { width: calc(50% - 1rem); flex: 1 1 calc(50% - 1r=
+em); }
+
+@media (max-width: 640px) {
+  .st-emotion-cache-t74pzu { min-width: calc(100% - 1.5rem); }
+}
+
+.st-emotion-cache-t74pzu .eu6p4el1:first-of-type > .eg2gxky0 { margin-top: =
+0.5rem; }
+
+.st-emotion-cache-1779v62 { display: inline-flex; -webkit-box-align: center=
+; align-items: center; -webkit-box-pack: center; justify-content: center; f=
+ont-weight: 400; padding: 0.25rem 0.75rem; border-radius: 0.5rem; min-heigh=
+t: 2.5rem; margin: 0px; line-height: 1.6; text-transform: none; font-size: =
+inherit; font-family: inherit; width: 100%; cursor: pointer; user-select: n=
+one; background-color: rgb(255, 75, 75); color: rgb(255, 255, 255); border:=
+ 1px solid rgb(255, 75, 75); }
+
+.st-emotion-cache-1779v62:focus { outline: none; }
+
+.st-emotion-cache-1779v62:focus-visible { box-shadow: rgba(255, 75, 75, 0.5=
+) 0px 0px 0px 0.2rem; }
+
+.st-emotion-cache-1779v62:hover { background-color: rgb(255, 51, 51); }
+
+.st-emotion-cache-1779v62:active { background-color: transparent; color: rg=
+b(255, 75, 75); }
+
+.st-emotion-cache-1779v62:disabled, .st-emotion-cache-1779v62:disabled:hove=
+r, .st-emotion-cache-1779v62:disabled:active { border-color: rgba(49, 51, 6=
+3, 0.2); background-color: transparent; color: rgba(49, 51, 63, 0.4); curso=
+r: not-allowed; }
+
+.st-emotion-cache-1hyd1ho { font-family: "Source Sans Pro", sans-serif; fon=
+t-size: 1rem; color: inherit; }
+
+.st-emotion-cache-1hyd1ho a { color: rgb(0, 104, 201); text-decoration: und=
+erline; }
+
+.st-emotion-cache-1hyd1ho h1, .st-emotion-cache-1hyd1ho h2, .st-emotion-cac=
+he-1hyd1ho h3, .st-emotion-cache-1hyd1ho h4, .st-emotion-cache-1hyd1ho h5, =
+.st-emotion-cache-1hyd1ho h6 { font-family: "Source Sans Pro", sans-serif; =
+font-weight: 600; line-height: 1.2; margin: 0px; color: inherit; }
+
+.st-emotion-cache-1hyd1ho h1 { font-size: 2.75rem; font-weight: 700; paddin=
+g: 1.25rem 0px 1rem; }
+
+.st-emotion-cache-1hyd1ho h1 b, .st-emotion-cache-1hyd1ho h1 strong { font-=
+weight: 700; }
+
+.st-emotion-cache-1hyd1ho h2, .st-emotion-cache-1hyd1ho h3 { letter-spacing=
+: -0.005em; }
+
+.st-emotion-cache-1hyd1ho h2 { font-size: 2.25rem; padding: 1rem 0px; }
+
+.st-emotion-cache-1hyd1ho h3 { font-size: 1.75rem; padding: 0.5rem 0px 1rem=
+; }
+
+.st-emotion-cache-1hyd1ho h4 { font-size: 1.5rem; padding: 0.75rem 0px 1rem=
+; }
+
+.st-emotion-cache-1hyd1ho h5 { font-size: 1.25rem; padding: 0px 0px 1rem; }
+
+.st-emotion-cache-1hyd1ho h6 { font-size: 1rem; padding: 0px 0px 1rem; }
+
+.st-emotion-cache-1hyd1ho p { word-break: break-word; margin: 0px; }
+
+.st-emotion-cache-1hyd1ho img { max-width: 100%; max-height: 1em; vertical-=
+align: middle; }
+
+.st-emotion-cache-1hyd1ho li { margin: 0.2em 0px 0.2em 1.2em; padding: 0px =
+0px 0px 0.6em; }
+
+.st-emotion-cache-1hyd1ho blockquote { margin: 1em 0px; padding: 0px 0px 0p=
+x 1.2em; border-left: 1px solid rgb(230, 234, 241); }
+
+.st-emotion-cache-1hyd1ho b, .st-emotion-cache-1hyd1ho strong { font-weight=
+: 600; }
+
+.st-emotion-cache-1hyd1ho hr { margin: 2em 0px; padding: 0px; color: inheri=
+t; background-color: transparent; border-top: none; border-right: none; bor=
+der-left: none; border-image: initial; border-bottom: 1px solid rgba(49, 51=
+, 63, 0.2); }
+
+.st-emotion-cache-1hyd1ho hr:not([size]) { height: 1px; }
+
+.st-emotion-cache-1hyd1ho table { margin-bottom: 1rem; border-collapse: col=
+lapse; }
+
+.st-emotion-cache-1hyd1ho tr { border-top: 1px solid rgba(49, 51, 63, 0.2);=
+ }
+
+.st-emotion-cache-1hyd1ho th { text-align: inherit; }
+
+.st-emotion-cache-1hyd1ho th, .st-emotion-cache-1hyd1ho td { padding: 0.375=
+rem 0.75rem; border: 1px solid rgba(49, 51, 63, 0.2); }
+
+.st-emotion-cache-1hyd1ho span.has-background-color { padding: 0.125rem 0.2=
+5rem; margin: 0px; border-radius: 0.25rem; }
+
+.st-emotion-cache-1hyd1ho p, .st-emotion-cache-1hyd1ho ol, .st-emotion-cach=
+e-1hyd1ho ul, .st-emotion-cache-1hyd1ho dl, .st-emotion-cache-1hyd1ho li { =
+font-size: inherit; }
+
+.st-emotion-cache-fgisgt { width: 291.828px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-h3w862 { width: 594.328px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-pdc5a1 { width: 594.328px; position: relative; }
+
+@media print {
+  .st-emotion-cache-pdc5a1 { overflow: visible; }
+}
+
+.st-emotion-cache-pdc5a1:is(.stHtml-empty) { display: none; }
+
+.st-emotion-cache-pdc5a1:has(> .stCacheSpinner) { height: 0px; overflow: vi=
+sible; visibility: visible; margin-bottom: -1rem; z-index: 101; }
+
+.st-emotion-cache-pdc5a1:has(> .stPageLink) { margin-top: -0.375rem; margin=
+-bottom: -0.375rem; }
+
+.st-emotion-cache-oy8dt0 { width: 1204px; position: relative; display: flex=
+; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-4mugtw { width: 1132px; position: relative; display: flex=
+; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-zxgzws { width: 1148px; position: relative; display: flex=
+; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1qh7no3 { width: 290.328px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-swr7g0 { width: 591.328px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-4p1une { width: 591.328px; position: relative; }
+
+@media print {
+  .st-emotion-cache-4p1une { overflow: visible; }
+}
+
+.st-emotion-cache-4p1une:is(.stHtml-empty) { display: none; }
+
+.st-emotion-cache-4p1une:has(> .stCacheSpinner) { height: 0px; overflow: vi=
+sible; visibility: visible; margin-bottom: -1rem; z-index: 101; }
+
+.st-emotion-cache-4p1une:has(> .stPageLink) { margin-top: -0.375rem; margin=
+-bottom: -0.375rem; }
+
+.st-emotion-cache-7hemb5 { width: 591.328px; position: relative; opacity: 0=
+.33; transition: opacity 1s ease-in 0.5s; }
+
+@media print {
+  .st-emotion-cache-7hemb5 { overflow: visible; }
+}
+
+.st-emotion-cache-7hemb5:is(.stHtml-empty) { display: none; }
+
+.st-emotion-cache-7hemb5:has(> .stCacheSpinner) { height: 0px; overflow: vi=
+sible; visibility: visible; margin-bottom: -1rem; z-index: 101; }
+
+.st-emotion-cache-7hemb5:has(> .stPageLink) { margin-top: -0.375rem; margin=
+-bottom: -0.375rem; }
+
+.st-emotion-cache-m2is37 { display: inline; transition: left 300ms; color: =
+rgba(49, 51, 63, 0.6); line-height: 0; }
+
+@media print {
+  .st-emotion-cache-m2is37 { display: none; }
+}
+
+@media (max-width: 576px) {
+  .st-emotion-cache-m2is37 { display: inline; }
+}
+
+.st-emotion-cache-1du70zn { border: none; background-color: transparent; bo=
+rder-top-right-radius: 1.25rem; border-top-left-radius: 0px; border-bottom-=
+right-radius: 1.25rem; display: inline-flex; -webkit-box-align: center; ali=
+gn-items: center; -webkit-box-pack: center; justify-content: center; line-h=
+eight: 1; margin: 0px; padding: 0.5rem; color: rgb(85, 88, 103); pointer-ev=
+ents: auto; }
+
+.st-emotion-cache-1du70zn:focus { outline: none; }
+
+.st-emotion-cache-1du70zn:focus { outline: none; }
+
+.st-emotion-cache-1du70zn:focus-visible { background-color: rgb(250, 250, 2=
+50); }
+
+.st-emotion-cache-1du70zn:hover { color: rgb(255, 75, 75); }
+
+.st-emotion-cache-1du70zn:disabled, .st-emotion-cache-1du70zn:disabled:hove=
+r, .st-emotion-cache-1du70zn:disabled:active { background-color: transparen=
+t; border-color: transparent; color: rgb(163, 168, 184); cursor: not-allowe=
+d; }
+
+.st-emotion-cache-ntkfik { position: relative; top: 0.125rem; background-co=
+lor: rgb(240, 242, 246); z-index: 999991; min-width: 0px; max-width: 0px; t=
+ransform: translateX(-550px); transition: transform 300ms, min-width 300ms,=
+ max-width 300ms; }
+
+.st-emotion-cache-ntkfik:focus { outline: none; }
+
+@media (max-width: 768px) {
+  .st-emotion-cache-ntkfik { box-shadow: transparent -2rem 0px 2rem 2rem; }
+}
+
+@media print {
+  .st-emotion-cache-ntkfik { display: none; max-height: 99%; box-shadow: no=
+ne; height: auto !important; }
+}
+
+.st-emotion-cache-o56mm5 { width: 485.797px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-aqc0hr { width: 1220.2px; position: relative; display: fl=
+ex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-16x0vnh { width: 472.812px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-2zq8ik { width: 1233.19px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-p07u57 { width: 1161.19px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-48tk5u { width: 1177.19px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-o5frlw { width: 456.031px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-rmdg3o { width: 1249.97px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1jps0o { width: 1177.97px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-148puq7 { width: 1193.97px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1f83209 { width: 385.953px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-77gfla { width: 1320.05px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1l2jafv { width: 1248.05px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1rl5cr9 { width: 1264.05px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-qq06iz { width: 358.125px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-dvtnvt { width: 1347.88px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-w9gd94 { width: 1275.88px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1y73csf { width: 1291.88px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-bm9e19 { width: 300.5px; position: relative; display: fle=
+x; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-cddptd { width: 1405.5px; position: relative; display: fl=
+ex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-n4huzf { width: 1333.5px; position: relative; display: fl=
+ex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1tcqa1q { width: 1349.5px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1dylpbo { width: 271.469px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-mw1mda { width: 1434.53px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1tmhllf { width: 1362.53px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-svk963 { width: 1378.53px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1m64q9v { width: 218.781px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1gvb89a { width: 1487.22px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-uen975 { width: 1415.22px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-v40k1y { width: 1431.22px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1gmjohm { width: 194.391px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-g5wrwi { width: 1511.61px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-2mb0wh { width: 1439.61px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-d41zql { width: 1455.61px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-v08nex { width: 150.953px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1ufxosw { width: 1555.05px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1r4tlq { width: 1483.05px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1rzea7h { width: 1499.05px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1bg9vxs { width: 113.781px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1fneq6w { width: 1592.22px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1hp19h2 { width: 1520.22px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1ga432w { width: 1536.22px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1i6kqdv { width: 97.4688px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-b7oq01 { width: 1608.53px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-you1v8 { width: 1536.53px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1btsz5t { width: 1552.53px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-zt3j8b { width: 82.4531px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-nis8m7 { width: 1623.55px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-18dimw0 { width: 1551.55px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-4lmq7y { width: 1567.55px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1hmnbce { width: 68.625px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-s3mt40 { width: 1637.38px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-icjzt3 { width: 1565.38px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1djfcb4 { width: 1581.38px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1qzlfr3 { width: 49.5625px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-7ihfok { width: 1650.44px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-191yx0y { width: 1578.44px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-184pawz { width: 1594.44px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1uaf2hg { width: 38.0938px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-c2a0n5 { width: 1661.91px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-mpt3zg { width: 1589.91px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-122ggmt { width: 1605.91px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-zcv1op { width: 27.4062px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-15qiqk3 { width: 1672.59px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-180tps6 { width: 1600.59px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-xjg4it { width: 1616.59px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1p366di { width: 8.4375px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-18f0ovl { width: 1691.56px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1q5b1j4 { width: 1619.56px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-a6ibf3 { width: 1635.56px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-pyloon { width: 0.1875px; position: relative; display: fl=
+ex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1wue4fj { width: 1699.81px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1onxkyc { width: 1627.81px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1p7erc3 { width: 1643.81px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-10e86g4 { position: relative; display: flex; flex: 1 1 0%=
+; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1iyt4if { width: 1707.11px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-lk5q13 { width: 1635.11px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1nilbdg { width: 1651.11px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1gl914h { width: 1714.02px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1rbps5y { width: 1642.02px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1fyaeci { width: 1658.02px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-mwnhs { width: 1720.06px; position: relative; display: fl=
+ex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1031sxd { width: 1648.06px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-l6rykp { width: 1664.06px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1eof058 { width: 1732.27px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-rtnfce { width: 1660.27px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1xp0zx1 { width: 1676.27px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1q31xnq { width: 1734.86px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-m45mlb { width: 1662.86px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-n3k6oa { width: 1678.86px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-umosbq { width: 1738.69px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-8lkph2 { width: 1666.69px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-xikkkv { width: 1682.69px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1r4d9vj { width: 1742.02px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-158igma { width: 1670.02px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-5ebnll { width: 1686.02px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-18xxt2s { width: 1744.91px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1ar7m06 { width: 1672.91px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1mb8pm8 { width: 1688.91px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-ox8lg9 { width: 1747.34px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-bqz1yv { width: 1675.34px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1g02j8o { width: 1691.34px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1usnf2c { width: 1749.44px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1gjo43z { width: 1677.44px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-mj5c00 { width: 1693.44px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-14rh5ot { width: 1751.06px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1doqpfa { width: 1679.06px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-10zqoxi { width: 1695.06px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-dr9kwf { width: 1752.31px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1i78616 { width: 1680.31px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1nlxkv4 { width: 1696.31px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1jgc9q8 { width: 1753.22px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-xypdhg { width: 1681.22px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1dtiokx { width: 1697.22px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-gkl10m { width: 1753.78px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-49hns5 { width: 1681.78px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1oj2s92 { width: 1697.78px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1ejefn0 { width: 1754px; position: relative; display: fle=
+x; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1pn72t8 { width: 1682px; position: relative; display: fle=
+x; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1m1nvcz { width: 1698px; position: relative; display: fle=
+x; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1gllvmb { width: 1882.67px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1c9pxqk { width: 1826.67px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-85m7lk { width: 1810.67px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-1850jke { width: 2138.02px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-4keyno { width: 2066.06px; position: relative; display: f=
+lex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-13vpwhh { width: 2082.06px; position: relative; display: =
+flex; flex: 1 1 0%; flex-direction: column; gap: 1rem; }
+
+.st-emotion-cache-s6b9bo { width: auto; position: relative; display: none; =
+}
+
+@media print {
+  .st-emotion-cache-s6b9bo { overflow: visible; }
+}
+
+.st-emotion-cache-s6b9bo:is(.stHtml-empty) { display: none; }
+
+.st-emotion-cache-s6b9bo:has(> .stCacheSpinner) { height: 0px; overflow: vi=
+sible; visibility: visible; margin-bottom: -1rem; z-index: 101; }
+
+.st-emotion-cache-s6b9bo:has(> .stPageLink) { margin-top: -0.375rem; margin=
+-bottom: -0.375rem; }
+------MultipartBoundary--88lptm9fPiabJcEgNkAVXWjUy0KxEp23G9PT80vbEL----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-7d24ba78-5398-41c5-aaef-193956529801@mhtml.blink
+
+@charset "utf-8";
+
+html { font-size: 16px; }
+
+@media print {
+  html { height: 100%; -webkit-print-color-adjust: exact; }
+}
+
+*, ::before, ::after { box-sizing: border-box; }
+
+body { margin: 0px; font-family: "Source Sans Pro", sans-serif; font-weight=
+: 400; line-height: 1.6; color: rgb(49, 51, 63); background-color: rgb(255,=
+ 255, 255); text-size-adjust: 100%; -webkit-tap-highlight-color: rgba(0, 0,=
+ 0, 0); -webkit-font-smoothing: auto; }
+
+body.embedded { overflow: hidden; }
+
+body.embedded:hover { overflow: auto; }
+
+[tabindex=3D"-1"]:focus:not(:focus-visible) { outline: 0px !important; }
+
+p, ol, ul, dl { margin: 0px 0px 1rem; padding: 0px; font-size: 1rem; font-w=
+eight: 400; }
+
+ol ol, ul ul, ol ul, ul ol { margin-bottom: 0px; }
+
+a:not([href]):not([class]), a:not([href]):not([class]):hover { color: inher=
+it; text-decoration: none; }
+
+img, svg { vertical-align: middle; }
+
+input, button, select, optgroup, textarea { margin: 0px; font-family: inher=
+it; line-height: inherit; font-size: inherit; }
+
+button, input { overflow: visible; }
+
+button:not(:disabled), [role=3D"button"]:not(:disabled) { cursor: pointer; =
+}
+
+button, [type=3D"button"], [type=3D"reset"], [type=3D"submit"] { appearance=
+: button; }
+
+[hidden] { display: none !important; }
+
+::-webkit-scrollbar { background: transparent; border-radius: 100px; height=
+: 6px; width: 6px; }
+
+::-webkit-scrollbar:active { background: rgba(49, 51, 63, 0.2); }
+
+:hover::-webkit-scrollbar-thumb:vertical, :hover::-webkit-scrollbar-thumb:h=
+orizontal { background: rgba(49, 51, 63, 0.4); border-radius: 100px; }
+------MultipartBoundary--88lptm9fPiabJcEgNkAVXWjUy0KxEp23G9PT80vbEL----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-dbd911f4-e7f0-41f9-8211-c4660a612866@mhtml.blink
+
+@charset "utf-8";
+
+.st-ae { box-sizing: border-box; }
+
+.st-af { display: flex; }
+
+.st-ag { overflow: hidden; }
+
+.st-ah { width: 100%; }
+
+.st-ai { border-left-width: 0px; }
+
+.st-aj { border-right-width: 0px; }
+
+.st-ak { border-top-width: 0px; }
+
+.st-al { border-bottom-width: 0px; }
+
+.st-am { border-left-style: solid; }
+
+.st-an { border-right-style: solid; }
+
+.st-ao { border-top-style: solid; }
+
+.st-ap { border-bottom-style: solid; }
+
+.st-aq { transition-property: border; }
+
+.st-ar { transition-duration: 200ms; }
+
+.st-as { transition-timing-function: cubic-bezier(0.2, 0.8, 0.4, 1); }
+
+.st-at { border-top-left-radius: 0.5rem; }
+
+.st-au { border-bottom-left-radius: 0.5rem; }
+
+.st-av { border-top-right-radius: 0.5rem; }
+
+.st-aw { border-bottom-right-radius: 0.5rem; }
+
+.st-ax { border-left-color: rgb(240, 242, 246); }
+
+.st-ay { border-right-color: rgb(240, 242, 246); }
+
+.st-az { border-top-color: rgb(240, 242, 246); }
+
+.st-b0 { border-bottom-color: rgb(240, 242, 246); }
+
+.st-b1 { background-color: rgb(240, 242, 246); }
+
+.st-b2 { padding-left: 0px; }
+
+.st-b3 { padding-right: 0px; }
+
+.st-b4 { min-height: 2.5rem; }
+
+.st-b5 { outline: none; }
+
+.st-b6 { transition-property: background-color; }
+
+.st-b7 { font-family: "Source Sans Pro", sans-serif; }
+
+.st-b8 { font-size: 1rem; }
+
+.st-b9 { font-weight: normal; }
+
+.st-ba { line-height: 1.6; }
+
+.st-bb { }
+
+.st-bc { }
+
+.st-bd { color: rgb(49, 51, 63); }
+
+.st-be { background-color: transparent; }
+
+.st-bf { border-left-style: none; }
+
+.st-bg { border-right-style: none; }
+
+.st-bh { border-top-style: none; }
+
+.st-bi { border-bottom-style: none; }
+
+.st-bj { min-width: 0px; }
+
+.st-bk { max-width: 100%; }
+
+.st-bl { cursor: text; }
+
+.st-bm { margin: 0px; }
+
+.st-bn { padding-top: 0.5rem; }
+
+.st-bo { padding-bottom: 0.5rem; }
+
+.st-bp { padding-left: 0px; }
+
+.st-bq { padding-right: calc(3rem); }
+
+.st-br { line-height: 1.4; }
+
+.st-bs { caret-color: rgb(49, 51, 63); }
+
+.st-bt::placeholder { color: rgba(49, 51, 63, 0.6); }
+
+.st-bu::placeholder { opacity: 0.7; }
+
+.st-bv { resize: none; }
+
+.st-bw { height: auto; }
+
+.st-bx { max-height: none; }
+
+.st-by { max-height: 260px; }
+
+.st-bz { border-left-color: rgb(255, 75, 75); }
+
+.st-c0 { border-right-color: rgb(255, 75, 75); }
+
+.st-c1 { border-top-color: rgb(255, 75, 75); }
+
+.st-c2 { border-bottom-color: rgb(255, 75, 75); }
+
+.st-c3 { height: 62px; }
+
+.st-c4 { height: 1px; }
+
+@keyframes st-ae {=20
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.st-c5 { display: block; }
+
+.st-c6 { animation-name: st-ae; }
+
+.st-c7 { animation-duration: 1000ms; }
+
+.st-c8 { animation-iteration-count: infinite; }
+
+.st-c9 { animation-timing-function: linear; }
+
+.st-ca { border-radius: 50%; }
+
+.st-cb { border-top-color: rgb(39, 110, 241); }
+
+.st-cc { border-right-color: rgb(255, 255, 255); }
+
+.st-cd { border-bottom-color: rgb(255, 255, 255); }
+
+.st-ce { border-left-color: rgb(255, 255, 255); }
+
+.st-cf { border-left-width: 4px; }
+
+.st-cg { border-right-width: 4px; }
+
+.st-ch { border-top-width: 4px; }
+
+.st-ci { border-bottom-width: 4px; }
+
+.st-cj { width: 32px; }
+
+.st-ck { height: 32px; }
+
+.st-cl { cursor: wait; }
+------MultipartBoundary--88lptm9fPiabJcEgNkAVXWjUy0KxEp23G9PT80vbEL------

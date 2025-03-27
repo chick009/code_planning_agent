@@ -160,16 +160,18 @@ def search_github_projects(query):
         client = TavilyClient(api_key=tavily_api_key)
         
         # Limit query length to prevent API errors
-        max_query_length = 500
-        truncated_query = query[:max_query_length] if len(query) > max_query_length else query
+        # max_query_length = 500
+        # truncated_query = query[:max_query_length] if len(query) > max_query_length else query
         
+        truncated_query = query
+        print(truncated_query)
         try:
             # Add search parameters to focus on GitHub results
             response = client.search(
-                query=f"{truncated_query} GitHub repository",
+                query=f"Search for Github Repository: {truncated_query}",
                 search_depth="advanced",
                 include_domains=["github.com"],
-                max_results=5
+                max_results=10
             )
         except Exception as api_error:
             print(f"Tavily API Error: {str(api_error)}")
@@ -180,7 +182,7 @@ def search_github_projects(query):
                 query=simplified_query,
                 search_depth="basic",
                 include_domains=["github.com"],
-                max_results=5
+                max_results=10
             )
         
         github_projects = []

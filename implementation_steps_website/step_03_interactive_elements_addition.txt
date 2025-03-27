@@ -1,0 +1,25 @@
+## Step 3: Interactive Elements Addition
+
+**Description:**  
+Enhance user engagement through thoughtful interactive elements.
+
+**Tasks:**
+- Implement smooth scroll navigation
+- Add hover effects for buttons and links
+- Create animated transitions between sections
+- Develop interactive skills visualization
+- Incorporate micro-interactions for user feedback
+
+**Expected Outcomes:**
+- Engaging user interface with visual feedback
+- Improved user experience metrics
+- Documented animation patterns
+
+**Resources:**
+- [React Spring Animation Library](https://www.react-spring.dev/)
+- [Framer Motion Documentation](https://www.framer.com/motion/)
+- [UI Animation Best Practices](https://uxdesign.cc/ui-animation-10-principles-for-using-animation-in-product-design-a6a5f3f6136a)
+
+---
+
+#
