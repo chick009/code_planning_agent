@@ -27,4 +27,14 @@ build/
 # Virtual Environment
 venv/
 env/
-ENV/ 
+ENV/
+
+# Ignore app.py and .env files
+app.py
+.env
+
+# Ignore implementation steps directories
+implementation_steps_to_develop_an_*/
+
+# Ignore response directory
+response/ 
