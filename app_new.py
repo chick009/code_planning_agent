@@ -49,19 +49,68 @@ def main():
         handle_github_search()
         return  # Return early to avoid chat input
     
+    # Check if we need to show the GitHub usage choice buttons
+    if (st.session_state.search_results and 
+        isinstance(st.session_state.search_results, list) and 
+        st.session_state.evaluation_state == "github_usage_choice"):
+        
+        # Add a visual separator
+        st.markdown("---")
+        
+        # Create a container for the buttons with some styling
+        button_container = st.container()
+        with button_container:
+            col1, col2 = st.columns([1, 1])
+            with col1:
+                st.markdown("### Use GitHub as a starting point")
+                st.markdown("Clone the repository and build upon it")
+                
+                # Button to use GitHub as starting point
+                if st.button("🔄 Start with GitHub Project", 
+                           key="use_github_button", 
+                           type="primary", 
+                           use_container_width=True):
+                    print("Using GitHub project as starting point")
+                    st.session_state.use_github_as_base = True
+                    st.session_state.evaluation_state = "plan_options"
+                    st.rerun()  # Trigger evaluation
+            
+            with col2:
+                st.markdown("### Use GitHub as reference only")
+                st.markdown("Build from scratch with inspiration")
+                
+                # Button to use GitHub as reference only
+                if st.button("🆕 Start Fresh with References", 
+                           key="reference_only_button", 
+                           type="primary", 
+                           use_container_width=True):
+                    print("Using GitHub projects as reference only")
+                    st.session_state.use_github_as_base = False
+                    st.session_state.evaluation_state = "plan_options"
+                    st.rerun()  # Trigger evaluation
+        
+        # Add another visual separator
+        st.markdown("---")
+        
+        # Return early to avoid chat input while showing buttons
+        return
+    
     # Check if we're in the middle of project evaluation and planning
     if (st.session_state.search_results and 
         "evaluation_state" in st.session_state and 
-        st.session_state.evaluation_state in ["planning", "start"]):
+        st.session_state.evaluation_state in ["planning", "start", "plan_options"]):
         evaluate_and_plan_projects()
         return  # Return early to avoid chat input
     
-    # Show GitHub search button after the first assistant response or when awaiting clarification
-    if (len(st.session_state.messages) >= 2 and  # At least user message + assistant response
-        st.session_state.project_summary and  # Have a project summary
-        st.session_state.evaluation_state != "completed" and  # Not completed yet
-        not st.session_state.search_results and  # Haven't searched yet
-        not st.session_state.awaiting_clarification):  # Not currently awaiting clarification
+    # Show GitHub search button if appropriate and not processing clarification
+    if (len(st.session_state.messages) >= 2 and
+        st.session_state.project_summary and
+        st.session_state.evaluation_state != "completed" and
+        (not st.session_state.search_results or st.session_state.awaiting_clarification) and # Haven't searched OR awaiting clarification
+        not st.session_state.get("processing_clarification", False)): # AND not currently processing clarification
+        
+        # Debug print to understand button visibility conditions
+        print(f"Button visibility check passed. Conditions: messages={len(st.session_state.messages)>=2}, summary={bool(st.session_state.project_summary)}, eval_state!='completed'={st.session_state.evaluation_state!='completed'}, search_results={not st.session_state.search_results}, awaiting_clarification={st.session_state.awaiting_clarification}, not_processing={not st.session_state.get('processing_clarification', False)}")
         
         # Add a visual separator
         st.markdown("---")
@@ -80,12 +129,14 @@ def main():
                            use_container_width=True):
                     print("GitHub search button clicked")
                     st.session_state.awaiting_clarification = False
-                    with st.spinner("Searching GitHub for relevant projects..."):
-                        success = skip_clarification(st.session_state.project_summary)
-                        if success:
-                            st.rerun()
-                        else:
-                            st.error("Failed to search GitHub. Please try again.")
+                    # Show assistant logo during search
+                    with st.chat_message("assistant"):
+                        with st.spinner("Searching GitHub for relevant projects..."):
+                            success = skip_clarification(st.session_state.project_summary)
+                            if success:
+                                st.rerun()
+                            else:
+                                st.error("Failed to search GitHub. Please try again.")
         
         # Add another visual separator
         st.markdown("---")
